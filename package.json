@@ -1,0 +1,38 @@
+{
+  "name": "dd2-quests",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild dev",
+    "lint:fix": "eslint . --ext .ts,.tsx,.js,.jsx --fix",
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
+    "preview": "rsbuild preview",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "react-router-dom": "7.9.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.36.0",
+    "@rsbuild/core": "1.5.6",
+    "@rsbuild/plugin-react": "1.4.0",
+    "@rsbuild/plugin-type-check": "^1.2.4",
+    "@types/eslint-plugin-jsx-a11y": "^6.10.1",
+    "@types/react": "19.1.16",
+    "@types/react-dom": "19.1.9",
+    "@typescript-eslint/eslint-plugin": "8.45.0",
+    "@typescript-eslint/parser": "8.45.0",
+    "eslint": "9.36.0",
+    "eslint-import-resolver-typescript": "4.4.4",
+    "eslint-plugin-import": "2.32.0",
+    "eslint-plugin-jsx-a11y": "6.10.2",
+    "eslint-plugin-react": "7.37.5",
+    "eslint-plugin-react-hooks": "5.2.0",
+    "globals": "16.4.0",
+    "typescript": "5.9.3"
+  }
+}

@@ -1,0 +1,253 @@
+/**
+ * Стили для списка квестов
+ * Фиксированная ширина 450px
+ */
+
+.quest-list {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 600px;
+  flex-shrink: 0;
+  background-color: var(--dd2-bg-dark);
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23696764' fill-opacity='0.08'%3E%3Cpath d='M0 0h40v40H0V0zm20 20v-2h-2v2h-2v2h2v2h2v-2h2v-2h-2z'/%3E%3C/g%3E%3C/svg%3E");
+  border-right: 1px solid var(--dd2-border);
+}
+
+/* Фильтры - две строки */
+.quest-list-filters {
+  padding: var(--spacing-sm);
+  background: var(--dd2-bg-medium);
+  border-bottom: 2px solid var(--dd2-border);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  flex-shrink: 0;
+}
+
+.filter-row {
+  display: flex;
+  gap: var(--spacing-sm);
+  align-items: center;
+}
+
+.filter-row-search {
+  width: 100%;
+}
+
+.filter-row-controls {
+  width: 100%;
+}
+
+.filter-search {
+  font-family: var(--font-title);
+  font-size: var(--text-sm);
+  padding: 6px 12px;
+  min-height: 32px;
+  background: var(--dd2-bg-dark);
+  color: var(--dd2-text-primary);
+  border: 2px solid var(--dd2-border);
+  border-radius: 0;
+  transition: all var(--transition-fast);
+  width: 100%;
+}
+
+.filter-search::placeholder {
+  color: var(--dd2-text-muted);
+  opacity: 0.7;
+}
+
+.filter-search:hover {
+  border-color: var(--dd2-gold);
+  background: var(--dd2-bg-medium);
+}
+
+.filter-search:focus {
+  outline: none;
+  border-color: var(--dd2-gold);
+  box-shadow: 0 0 0 1px var(--dd2-gold);
+  background: var(--dd2-bg-medium);
+}
+
+.filter-select {
+  font-family: var(--font-title);
+  font-size: var(--text-sm);
+  padding: 6px 12px;
+  min-height: 32px;
+  background: var(--dd2-bg-dark);
+  color: var(--dd2-text-primary);
+  border: 2px solid var(--dd2-border);
+  border-radius: 0;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  flex: 1;
+  min-width: 120px;
+}
+
+.filter-select:hover {
+  border-color: var(--dd2-gold);
+  background: var(--dd2-bg-medium);
+}
+
+.filter-select:focus {
+  outline: none;
+  border-color: var(--dd2-gold);
+  box-shadow: 0 0 0 1px var(--dd2-gold);
+}
+
+.filter-checkbox {
+  font-family: var(--font-title);
+  font-size: var(--text-sm);
+  color: var(--dd2-text-primary);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+  flex-shrink: 0;
+  min-height: 32px;
+  padding: 6px 12px;
+  background: var(--dd2-bg-dark);
+  border: 2px solid var(--dd2-border);
+  border-radius: 0;
+  transition: all var(--transition-fast);
+  margin-left: auto;
+}
+
+.filter-checkbox:hover {
+  border-color: var(--dd2-gold);
+  background: var(--dd2-bg-medium);
+}
+
+.filter-checkbox input {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  accent-color: var(--dd2-gold);
+}
+
+/* Скроллящаяся область */
+.quest-list-scroll {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  min-height: 0;
+}
+
+.quest-list-header {
+  padding: var(--spacing-xs) var(--spacing-md);
+  background: var(--dd2-bg-medium);
+  border-bottom: 1px solid var(--dd2-border);
+  position: sticky;
+  top: 0;
+  z-index: var(--z-sticky);
+}
+
+.quest-list-count {
+  font-family: var(--font-title);
+  font-size: var(--text-xs);
+  color: var(--dd2-text-muted);
+  letter-spacing: 0.05em;
+}
+
+.quest-list-items {
+  padding: var(--spacing-xs);
+}
+
+.quest-list-empty {
+  padding: var(--spacing-2xl);
+  text-align: center;
+  color: var(--dd2-text-muted);
+}
+
+.quest-list-empty p {
+  margin-bottom: var(--spacing-sm);
+}
+
+/* Элемент списка квестов */
+.quest-list-item {
+  display: flex;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm) var(--spacing-md);
+  margin-bottom: var(--spacing-xs);
+  background: var(--dd2-bg-medium);
+  border: 1px solid var(--dd2-border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  position: relative;
+}
+
+.quest-list-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: transparent;
+  transition: background var(--transition-fast);
+}
+
+.quest-list-item:hover {
+  background: var(--dd2-bg-light);
+  border-color: var(--dd2-gold);
+  transform: translateX(2px);
+}
+
+.quest-list-item:hover::before {
+  background: var(--dd2-gold);
+}
+
+.quest-list-item-selected {
+  background: var(--dd2-bg-light);
+  border-color: var(--dd2-gold);
+  box-shadow: var(--dd2-shadow-gold);
+}
+
+.quest-list-item-selected::before {
+  background: var(--dd2-gold);
+}
+
+.quest-list-item-completed {
+  opacity: 0.7;
+}
+
+.quest-list-item-completed:hover {
+  opacity: 1;
+}
+
+/* Все стили .quest-item-* перенесены в QuestListItem.css */
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .quest-list-filters {
+    padding: var(--spacing-xs);
+  }
+
+  .quest-list-item {
+    padding: var(--spacing-xs) var(--spacing-sm);
+  }
+
+  /* quest-item стили в QuestListItem.css */
+}
+
+/* Анимации */
+.quest-list-item {
+  animation: fadeIn 0.2s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

@@ -1,0 +1,142 @@
+/**
+ * Стили для компонента прогресса квестов
+ * Минималистичная версия в одну строку
+ */
+
+.quest-progress {
+  background: var(--dd2-bg-medium);
+  border-bottom: 2px solid var(--dd2-border-gold);
+  padding: var(--spacing-xs) var(--spacing-lg);
+  box-shadow: var(--dd2-shadow-sm);
+  flex-shrink: 0;
+}
+
+.quest-progress-container {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+}
+
+/* Статистика в одну строку */
+.progress-stats-inline {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.progress-stat-item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  white-space: nowrap;
+}
+
+.progress-stat-total {
+  font-weight: 600;
+}
+
+.progress-label {
+  font-size: var(--text-sm);
+  color: var(--dd2-text-secondary);
+  font-family: var(--font-title);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.progress-value {
+  font-family: var(--font-title);
+  font-size: var(--text-base);
+  font-weight: 600;
+  color: var(--dd2-text-primary);
+}
+
+.progress-completed {
+  color: var(--dd2-gold);
+  font-weight: 700;
+}
+
+.progress-separator {
+  color: var(--dd2-border-gold);
+  margin: 0 2px;
+}
+
+.progress-total {
+  color: var(--dd2-text-secondary);
+}
+
+.progress-percent {
+  font-size: var(--text-sm);
+  color: var(--dd2-gold);
+  font-family: var(--font-title);
+}
+
+.progress-divider {
+  color: var(--dd2-border);
+  font-size: var(--text-sm);
+  user-select: none;
+}
+
+
+/* Адаптивность */
+@media (max-width: 1200px) {
+  .progress-stat-item .progress-label {
+    font-size: var(--text-xs);
+  }
+  
+  .progress-stat-item .progress-value {
+    font-size: var(--text-sm);
+  }
+}
+
+@media (max-width: 768px) {
+  .quest-progress {
+    padding: var(--spacing-xs) var(--spacing-md);
+  }
+
+  .quest-progress-container {
+    gap: var(--spacing-sm);
+  }
+
+  .progress-title h1 {
+    font-size: var(--text-base);
+  }
+
+  .progress-stats-inline {
+    gap: var(--spacing-sm);
+  }
+
+  .progress-stat-item .progress-label {
+    font-size: 10px;
+  }
+
+  .progress-stat-item .progress-value {
+    font-size: var(--text-xs);
+  }
+
+  .progress-divider {
+    display: none;
+  }
+
+  .quest-progress-reset {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+/* Анимации */
+.quest-progress {
+  animation: slideIn 0.3s ease-out;
+}
+
+.progress-stat-item {
+  transition: color var(--transition-fast);
+}
+
+.progress-stat-item:hover .progress-label {
+  color: var(--dd2-gold);
+}
+

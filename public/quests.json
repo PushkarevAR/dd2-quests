@@ -1,0 +1,3908 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-10-23",
+  "totalQuests": 81,
+  "mainQuests": 20,
+  "sideQuests": 61,
+  "quests": [
+    {
+      "id": "main-001",
+      "type": "main",
+      "name": "Gaoled Awakening",
+      "nameRu": "Пробуждение в темнице",
+      "location": "Vermund",
+      "subLocation": null,
+      "order": 1,
+      "availableAfter": null,
+      "rewards": {
+        "gold": 0,
+        "xp": 0,
+        "items": []
+      },
+      "description": "Автоматический пролог игры",
+      "howToStart": "Автоматически",
+      "requirements": {
+        "quests": [],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [
+        "main-002"
+      ],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": true
+      },
+      "tags": [
+        "story",
+        "main"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106167-prohozhdenie-dragons-dogma-2-vse-osnovnye-kvesty.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Gaoled+Awakening",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "main-002",
+      "type": "main",
+      "name": "Tale's Beginning",
+      "nameRu": "Начало истории",
+      "location": "Vermund",
+      "subLocation": null,
+      "order": 2,
+      "availableAfter": "main-001",
+      "rewards": {
+        "gold": 1200,
+        "xp": 1800,
+        "items": []
+      },
+      "description": "Первый основной квест",
+      "howToStart": "После Gaoled Awakening",
+      "requirements": {
+        "quests": [
+          "main-001"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [
+        "main-003",
+        "side-001"
+      ],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": true
+      },
+      "tags": [
+        "story",
+        "main"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106167-prohozhdenie-dragons-dogma-2-vse-osnovnye-kvesty.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Tale's+Beginning",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "main-003",
+      "type": "main",
+      "name": "In Dragon's Wake",
+      "nameRu": "По следам дракона",
+      "location": "Vermund",
+      "subLocation": "Melve",
+      "order": 3,
+      "availableAfter": "main-002",
+      "rewards": {
+        "gold": 2500,
+        "xp": 3000,
+        "items": []
+      },
+      "description": "Помогите деревне Мелва",
+      "howToStart": "От Бранта",
+      "requirements": {
+        "quests": [
+          "main-002"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [
+        "main-004",
+        "side-002",
+        "side-003",
+        "side-004",
+        "side-005",
+        "side-006",
+        "side-007",
+        "side-008"
+      ],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": true
+      },
+      "tags": [
+        "story",
+        "main"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106167-prohozhdenie-dragons-dogma-2-vse-osnovnye-kvesty.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/In+Dragon's+Wake",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "main-004",
+      "type": "main",
+      "name": "Seat of the Sovran",
+      "nameRu": "Трон суверена",
+      "location": "Vermund",
+      "subLocation": "Vernworth",
+      "order": 4,
+      "availableAfter": "main-003",
+      "rewards": {
+        "gold": 3500,
+        "xp": 4500,
+        "items": []
+      },
+      "description": "Аудиенция у правителя",
+      "howToStart": "После In Dragon's Wake",
+      "requirements": {
+        "quests": [
+          "main-003"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [
+        "main-005"
+      ],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": true
+      },
+      "tags": [
+        "story",
+        "main"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106167-prohozhdenie-dragons-dogma-2-vse-osnovnye-kvesty.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Seat+of+the+Sovran",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "main-005",
+      "type": "main",
+      "name": "Monster Culling",
+      "nameRu": "Истребление монстров",
+      "location": "Vermund",
+      "subLocation": null,
+      "order": 5,
+      "availableAfter": "main-004",
+      "rewards": {
+        "gold": 4000,
+        "xp": 5000,
+        "items": []
+      },
+      "description": "Победите 3 монстров",
+      "howToStart": "От Бранта",
+      "requirements": {
+        "quests": [
+          "main-004"
+        ],
+        "level": 15,
+        "items": []
+      },
+      "unlocks": [
+        "main-006"
+      ],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": true
+      },
+      "tags": [
+        "story",
+        "main"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106167-prohozhdenie-dragons-dogma-2-vse-osnovnye-kvesty.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Monster+Culling",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "main-006",
+      "type": "main",
+      "name": "Disa's Plot",
+      "nameRu": "Заговор Дизы",
+      "location": "Vermund",
+      "subLocation": null,
+      "order": 6,
+      "availableAfter": "main-005",
+      "rewards": {
+        "gold": 5000,
+        "xp": 6000,
+        "items": []
+      },
+      "description": "Расследуйте заговор",
+      "howToStart": "Основной сюжет",
+      "requirements": {
+        "quests": [
+          "main-005"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": true
+      },
+      "tags": [
+        "story",
+        "main"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106167-prohozhdenie-dragons-dogma-2-vse-osnovnye-kvesty.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Disa's+Plot",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "main-008",
+      "type": "main",
+      "name": "The Caged Magistrate",
+      "nameRu": "Пленённый магистрат",
+      "location": "Vermund",
+      "subLocation": null,
+      "order": 7,
+      "availableAfter": "main-007",
+      "rewards": {
+        "gold": 6500,
+        "xp": 7800,
+        "items": []
+      },
+      "description": "Спасите магистрата",
+      "howToStart": "Основной сюжет",
+      "requirements": {
+        "quests": [],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [
+        "main-009"
+      ],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": true
+      },
+      "tags": [
+        "story",
+        "main"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106167-prohozhdenie-dragons-dogma-2-vse-osnovnye-kvesty.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/The+Caged+Magistrate",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "main-009",
+      "type": "side",
+      "name": "The Nameless Village",
+      "nameRu": "Безымянная деревня",
+      "location": "Vermund",
+      "subLocation": null,
+      "order": 109,
+      "availableAfter": "main-008",
+      "rewards": {
+        "gold": 7000,
+        "xp": 8400,
+        "items": []
+      },
+      "description": "Посетите деревню",
+      "howToStart": "Основной сюжет",
+      "requirements": {
+        "quests": [
+          "main-008"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [
+        "main-010"
+      ],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": true
+      },
+      "tags": [
+        "story",
+        "main"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106167-prohozhdenie-dragons-dogma-2-vse-osnovnye-kvesty.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/The+Nameless+Village",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "main-010",
+      "type": "main",
+      "name": "The Stolen Throne",
+      "nameRu": "Украденный трон",
+      "location": "Vermund",
+      "subLocation": null,
+      "order": 8,
+      "availableAfter": "main-009",
+      "rewards": {
+        "gold": 8000,
+        "xp": 9600,
+        "items": []
+      },
+      "description": "Верните наследника",
+      "howToStart": "Основной сюжет",
+      "requirements": {
+        "quests": [
+          "main-009"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [
+        "main-011"
+      ],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": true
+      },
+      "tags": [
+        "story",
+        "main"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106167-prohozhdenie-dragons-dogma-2-vse-osnovnye-kvesty.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/The+Stolen+Throne",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "main-011",
+      "type": "main",
+      "name": "An Unsettling Encounter",
+      "nameRu": "Тревожная встреча",
+      "location": "Vermund",
+      "subLocation": null,
+      "order": 9,
+      "availableAfter": "main-010",
+      "rewards": {
+        "gold": 8500,
+        "xp": 10200,
+        "items": []
+      },
+      "description": "Встреча с силой",
+      "howToStart": "Основной сюжет",
+      "requirements": {
+        "quests": [
+          "main-010"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [
+        "main-012"
+      ],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": true
+      },
+      "tags": [
+        "story",
+        "main"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106167-prohozhdenie-dragons-dogma-2-vse-osnovnye-kvesty.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/An+Unsettling+Encounter",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "main-012",
+      "type": "main",
+      "name": "Feast of Deception",
+      "nameRu": "Пир обмана",
+      "location": "Vermund",
+      "subLocation": null,
+      "order": 10,
+      "availableAfter": "main-011",
+      "rewards": {
+        "gold": 9000,
+        "xp": 10800,
+        "items": []
+      },
+      "description": "Королевский пир",
+      "howToStart": "Основной сюжет",
+      "requirements": {
+        "quests": [
+          "main-011"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [
+        "main-013"
+      ],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": true
+      },
+      "tags": [
+        "story",
+        "main"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106167-prohozhdenie-dragons-dogma-2-vse-osnovnye-kvesty.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Feast+of+Deception",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "main-013",
+      "type": "main",
+      "name": "Nation of the Lambent Flame",
+      "nameRu": "Нация пламенного света",
+      "location": "Battahl",
+      "subLocation": null,
+      "order": 11,
+      "availableAfter": "main-012",
+      "rewards": {
+        "gold": 10000,
+        "xp": 12000,
+        "items": []
+      },
+      "description": "Путешествие в Battahl",
+      "howToStart": "Основной сюжет",
+      "requirements": {
+        "quests": [
+          "main-012"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [
+        "main-014"
+      ],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": true
+      },
+      "tags": [
+        "story",
+        "main"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106167-prohozhdenie-dragons-dogma-2-vse-osnovnye-kvesty.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Nation+of+The+Lambent+Flame",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "main-014",
+      "type": "main",
+      "name": "Flickering Shadows",
+      "nameRu": "Мерцающие тени",
+      "location": "Battahl",
+      "subLocation": null,
+      "order": 12,
+      "availableAfter": "main-013",
+      "rewards": {
+        "gold": 11000,
+        "xp": 13200,
+        "items": []
+      },
+      "description": "Тени в Battahl",
+      "howToStart": "Основной сюжет",
+      "requirements": {
+        "quests": [
+          "main-013"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [
+        "main-015"
+      ],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": true
+      },
+      "tags": [
+        "story",
+        "main"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106167-prohozhdenie-dragons-dogma-2-vse-osnovnye-kvesty.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Flickering+Shadows",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "main-015",
+      "type": "main",
+      "name": "Convergence",
+      "nameRu": "Схождение",
+      "location": "Battahl",
+      "subLocation": null,
+      "order": 13,
+      "availableAfter": "main-014",
+      "rewards": {
+        "gold": 12000,
+        "xp": 14400,
+        "items": []
+      },
+      "description": "Судьбы сходятся",
+      "howToStart": "Основной сюжет",
+      "requirements": {
+        "quests": [
+          "main-014"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [
+        "main-016"
+      ],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": true
+      },
+      "tags": [
+        "story",
+        "main"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106167-prohozhdenie-dragons-dogma-2-vse-osnovnye-kvesty.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Convergence",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "main-016",
+      "type": "main",
+      "name": "A New Godsway",
+      "nameRu": "Новый путь богов",
+      "location": "Battahl",
+      "subLocation": null,
+      "order": 14,
+      "availableAfter": "main-015",
+      "rewards": {
+        "gold": 13000,
+        "xp": 15600,
+        "items": []
+      },
+      "description": "Путь богов",
+      "howToStart": "Основной сюжет",
+      "requirements": {
+        "quests": [
+          "main-015"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [
+        "main-017"
+      ],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": true
+      },
+      "tags": [
+        "story",
+        "main"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106167-prohozhdenie-dragons-dogma-2-vse-osnovnye-kvesty.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/A+New+Godsway",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "main-017",
+      "type": "main",
+      "name": "The Guardian Gigantus",
+      "nameRu": "Страж-гигант",
+      "location": "Battahl",
+      "subLocation": null,
+      "order": 15,
+      "availableAfter": "main-016",
+      "rewards": {
+        "gold": 14000,
+        "xp": 16800,
+        "items": []
+      },
+      "description": "Сражение с гигантом",
+      "howToStart": "Основной сюжет",
+      "requirements": {
+        "quests": [
+          "main-016"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [
+        "main-018"
+      ],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": true
+      },
+      "tags": [
+        "story",
+        "main"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106167-prohozhdenie-dragons-dogma-2-vse-osnovnye-kvesty.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/The+Guardian+Gigantus",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "main-018",
+      "type": "main",
+      "name": "Legacy",
+      "nameRu": "Наследие",
+      "location": "Battahl",
+      "subLocation": null,
+      "order": 16,
+      "availableAfter": "main-017",
+      "rewards": {
+        "gold": 15000,
+        "xp": 18000,
+        "items": []
+      },
+      "description": "Начало Unmoored World",
+      "howToStart": "После гиганта",
+      "requirements": {
+        "quests": [
+          "main-017"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [
+        "main-019"
+      ],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": true
+      },
+      "tags": [
+        "story",
+        "main"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106167-prohozhdenie-dragons-dogma-2-vse-osnovnye-kvesty.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Legacy",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "main-019",
+      "type": "main",
+      "name": "Dreams Apart",
+      "nameRu": "Разделённые мечты",
+      "location": "Unmoored World",
+      "subLocation": null,
+      "order": 17,
+      "availableAfter": "main-018",
+      "rewards": {
+        "gold": 16000,
+        "xp": 19200,
+        "items": []
+      },
+      "description": "Продолжение Unmoored",
+      "howToStart": "Основной сюжет",
+      "requirements": {
+        "quests": [
+          "main-018"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [
+        "main-020"
+      ],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": true
+      },
+      "tags": [
+        "story",
+        "main"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106167-prohozhdenie-dragons-dogma-2-vse-osnovnye-kvesty.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Dreams+Apart",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "main-020",
+      "type": "main",
+      "name": "A Scholarly Pursuit",
+      "nameRu": "Учёное преследование",
+      "location": "Unmoored World",
+      "subLocation": null,
+      "order": 18,
+      "availableAfter": "main-019",
+      "rewards": {
+        "gold": 17000,
+        "xp": 20400,
+        "items": []
+      },
+      "description": "Поиски знаний",
+      "howToStart": "Основной сюжет",
+      "requirements": {
+        "quests": [
+          "main-019"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [
+        "main-021"
+      ],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": true
+      },
+      "tags": [
+        "story",
+        "main"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106167-prohozhdenie-dragons-dogma-2-vse-osnovnye-kvesty.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/A+Scholarly+Pursuit",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "main-021",
+      "type": "main",
+      "name": "Halls of the First Dawn",
+      "nameRu": "Залы первого рассвета",
+      "location": "Unmoored World",
+      "subLocation": null,
+      "order": 19,
+      "availableAfter": "main-020",
+      "rewards": {
+        "gold": 18000,
+        "xp": 21600,
+        "items": []
+      },
+      "description": "Начните эвакуацию",
+      "howToStart": "От Ротиаса",
+      "requirements": {
+        "quests": [
+          "main-020"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [
+        "main-022"
+      ],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": true
+      },
+      "tags": [
+        "story",
+        "main"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106167-prohozhdenie-dragons-dogma-2-vse-osnovnye-kvesty.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Halls+of+the+First+Dawn",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "main-022",
+      "type": "main",
+      "name": "When Wills Collide",
+      "nameRu": "Когда воли сталкиваются",
+      "location": "Unmoored World",
+      "subLocation": null,
+      "order": 20,
+      "availableAfter": "main-021",
+      "rewards": {
+        "gold": 0,
+        "xp": 0,
+        "items": [
+          "Концовка"
+        ]
+      },
+      "description": "ФИНАЛ ИГРЫ",
+      "howToStart": "Основной сюжет",
+      "requirements": {
+        "quests": [
+          "main-021"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": true
+      },
+      "tags": [
+        "story",
+        "main"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106167-prohozhdenie-dragons-dogma-2-vse-osnovnye-kvesty.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/When+Wills+Collide",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-001",
+      "type": "side",
+      "name": "Ordeals of a New Recruit",
+      "nameRu": "Испытания нового рекрута",
+      "location": "Vermund",
+      "subLocation": "Borderwatch Outpost",
+      "order": 100,
+      "availableAfter": "main-002",
+      "rewards": {
+        "gold": 1500,
+        "xp": 900,
+        "items": []
+      },
+      "description": "Побочный квест: Испытания нового рекрута",
+      "howToStart": "У главных ворот заставы",
+      "requirements": {
+        "quests": [
+          "main-002"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": true,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Ordeals+of+a+New+Recruit",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-002",
+      "type": "side",
+      "name": "Claw Them Into Shape",
+      "nameRu": "Вышколить когтями",
+      "location": "Vermund",
+      "subLocation": "Borderwatch Outpost",
+      "order": 101,
+      "availableAfter": "main-003",
+      "rewards": {
+        "gold": 2000,
+        "xp": 1200,
+        "items": []
+      },
+      "description": "Побочный квест: Вышколить когтями",
+      "howToStart": "Палатка Берена",
+      "requirements": {
+        "quests": [
+          "main-003"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Claw+Them+Into+Shape",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-003",
+      "type": "side",
+      "name": "The Provisioner's Plight",
+      "nameRu": "Беда поставщика",
+      "location": "Vermund",
+      "subLocation": "Borderwatch Outpost",
+      "order": 102,
+      "availableAfter": "main-003",
+      "rewards": {
+        "gold": 1800,
+        "xp": 1000,
+        "items": []
+      },
+      "description": "Побочный квест: Беда поставщика",
+      "howToStart": "С Джеффри",
+      "requirements": {
+        "quests": [
+          "main-003"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/The+Provisioner's+Plight",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-004",
+      "type": "side",
+      "name": "Beren's Final Lesson",
+      "nameRu": "Последний урок Берена",
+      "location": "Vermund",
+      "subLocation": "Moonglow Garden",
+      "order": 103,
+      "availableAfter": "side-002",
+      "rewards": {
+        "gold": 2500,
+        "xp": 1500,
+        "items": []
+      },
+      "description": "Побочный квест: Последний урок Берена",
+      "howToStart": "После Claw Them Into Shape",
+      "requirements": {
+        "quests": [
+          "side-002"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Beren's+Final+Lesson",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-005",
+      "type": "side",
+      "name": "Medicament Predicament",
+      "nameRu": "Затруднение с лекарством",
+      "location": "Vermund",
+      "subLocation": "Melve",
+      "order": 104,
+      "availableAfter": "main-003",
+      "rewards": {
+        "gold": 1600,
+        "xp": 800,
+        "items": []
+      },
+      "description": "Побочный квест: Затруднение с лекарством",
+      "howToStart": "С Флорой в Melve",
+      "requirements": {
+        "quests": [
+          "main-003"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Medicament+Predicament",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-006",
+      "type": "side",
+      "name": "Brothers Brave and Timid",
+      "nameRu": "Храбрый и робкий братья",
+      "location": "Vermund",
+      "subLocation": "Melve",
+      "order": 105,
+      "availableAfter": "main-003",
+      "rewards": {
+        "gold": 2200,
+        "xp": 1300,
+        "items": []
+      },
+      "description": "Побочный квест: Храбрый и робкий братья",
+      "howToStart": "С Яном в Melve",
+      "requirements": {
+        "quests": [
+          "main-003"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Brothers+Brave+and+Timid",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-007",
+      "type": "side",
+      "name": "Nesting Troubles",
+      "nameRu": "Проблемы с гнездом",
+      "location": "Vermund",
+      "subLocation": "Melve",
+      "order": 106,
+      "availableAfter": "main-003",
+      "rewards": {
+        "gold": 1400,
+        "xp": 700,
+        "items": []
+      },
+      "description": "Побочный квест: Проблемы с гнездом",
+      "howToStart": "С Леннартом в Melve",
+      "requirements": {
+        "quests": [
+          "main-003"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Nesting+Troubles",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-008",
+      "type": "side",
+      "name": "One-Eyed Interloper",
+      "nameRu": "Одноглазый пришелец",
+      "location": "Vermund",
+      "subLocation": null,
+      "order": 107,
+      "availableAfter": "main-003",
+      "rewards": {
+        "gold": 3000,
+        "xp": 1800,
+        "items": []
+      },
+      "description": "Побочный квест: Одноглазый пришелец",
+      "howToStart": "С Грегором на дороге",
+      "requirements": {
+        "quests": [
+          "main-003"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/One-Eyed+Interloper",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-009",
+      "type": "side",
+      "name": "A Beggar's Tale",
+      "nameRu": "Рассказ нищего",
+      "location": "Vermund",
+      "subLocation": "Vernworth",
+      "order": 110,
+      "availableAfter": "main-004",
+      "rewards": {
+        "gold": 2800,
+        "xp": 1600,
+        "items": []
+      },
+      "description": "Побочный квест: Рассказ нищего",
+      "howToStart": "У фонтана",
+      "requirements": {
+        "quests": [
+          "main-004"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/A+Beggar's+Tale",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-010",
+      "type": "side",
+      "name": "A Place to Call Home",
+      "nameRu": "Место, что зовётся домом",
+      "location": "Vermund",
+      "subLocation": "Vernworth",
+      "order": 111,
+      "availableAfter": "main-004",
+      "rewards": {
+        "gold": 3500,
+        "xp": 2100,
+        "items": []
+      },
+      "description": "Побочный квест: Место, что зовётся домом",
+      "howToStart": "С Милдрен",
+      "requirements": {
+        "quests": [
+          "main-004"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/A+Place+to+Call+Home",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-011",
+      "type": "side",
+      "name": "The Ornate Box",
+      "nameRu": "Украшенная шкатулка",
+      "location": "Vermund",
+      "subLocation": "Vernworth",
+      "order": 112,
+      "availableAfter": "main-004",
+      "rewards": {
+        "gold": 4200,
+        "xp": 2500,
+        "items": []
+      },
+      "description": "Побочный квест: Украшенная шкатулка",
+      "howToStart": "Спор на рынке",
+      "requirements": {
+        "quests": [
+          "main-004"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/The+Ornate+Box",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-012",
+      "type": "side",
+      "name": "Oxcart Courier",
+      "nameRu": "Курьер на повозке",
+      "location": "Vermund",
+      "subLocation": "Vernworth",
+      "order": 113,
+      "availableAfter": "main-004",
+      "rewards": {
+        "gold": 2000,
+        "xp": 1200,
+        "items": []
+      },
+      "description": "Побочный квест: Курьер на повозке",
+      "howToStart": "Станция повозок",
+      "requirements": {
+        "quests": [
+          "main-004"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": true,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Oxcart+Courier",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-013",
+      "type": "side",
+      "name": "Gift of the Bow",
+      "nameRu": "Дар лука",
+      "location": "Vermund",
+      "subLocation": "Vernworth",
+      "order": 114,
+      "availableAfter": "main-004",
+      "rewards": {
+        "gold": 3000,
+        "xp": 1800,
+        "items": []
+      },
+      "description": "Побочный квест: Дар лука",
+      "howToStart": "С Глиндвром",
+      "requirements": {
+        "quests": [
+          "main-004"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Gift+of+the+Bow",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-014",
+      "type": "side",
+      "name": "A Trial of Archery",
+      "nameRu": "Испытание в стрельбе из лука",
+      "location": "Vermund",
+      "subLocation": "Vernworth",
+      "order": 115,
+      "availableAfter": "side-013",
+      "rewards": {
+        "gold": 3500,
+        "xp": 2100,
+        "items": []
+      },
+      "description": "Побочный квест: Испытание в стрельбе из лука",
+      "howToStart": "После Gift of the Bow",
+      "requirements": {
+        "quests": [
+          "side-013"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/A+Trial+of+Archery",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-015",
+      "type": "side",
+      "name": "The Gift of Giving",
+      "nameRu": "Дар дарения",
+      "location": "Vermund",
+      "subLocation": "Vernworth",
+      "order": 116,
+      "availableAfter": "main-004",
+      "rewards": {
+        "gold": 2500,
+        "xp": 1500,
+        "items": []
+      },
+      "description": "Побочный квест: Дар дарения",
+      "howToStart": "С Дафной",
+      "requirements": {
+        "quests": [
+          "main-004"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/The+Gift+of+Giving",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-016",
+      "type": "side",
+      "name": "House of the Blue Sunbright",
+      "nameRu": "Дом синего солнечного света",
+      "location": "Vermund",
+      "subLocation": "Vernworth",
+      "order": 117,
+      "availableAfter": "side-015",
+      "rewards": {
+        "gold": 4000,
+        "xp": 2400,
+        "items": []
+      },
+      "description": "Побочный квест: Дом синего солнечного света",
+      "howToStart": "После Gift of Giving",
+      "requirements": {
+        "quests": [
+          "side-015"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/House+of+the+Blue+Sunbright",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-017",
+      "type": "side",
+      "name": "Till Death Do Us Part",
+      "nameRu": "Пока смерть не разлучит нас",
+      "location": "Vermund",
+      "subLocation": "Vernworth",
+      "order": 118,
+      "availableAfter": "main-004",
+      "rewards": {
+        "gold": 3800,
+        "xp": 2300,
+        "items": []
+      },
+      "description": "Побочный квест: Пока смерть не разлучит нас",
+      "howToStart": "С Освальдом",
+      "requirements": {
+        "quests": [
+          "main-004"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": true,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Till+Death+Do+Us+Part",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-018",
+      "type": "side",
+      "name": "Vocation Frustration",
+      "nameRu": "Разочарование в призвании",
+      "location": "Vermund",
+      "subLocation": "Vernworth",
+      "order": 119,
+      "availableAfter": "main-004",
+      "rewards": {
+        "gold": 2200,
+        "xp": 1300,
+        "items": []
+      },
+      "description": "Побочный квест: Разочарование в призвании",
+      "howToStart": "Гильдия призваний",
+      "requirements": {
+        "quests": [
+          "main-004"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Vocation+Frustration",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-019",
+      "type": "side",
+      "name": "Hunt for the Jadeite Orb",
+      "nameRu": "Охота за нефритовой сферой",
+      "location": "Checkpoint",
+      "subLocation": null,
+      "order": 120,
+      "availableAfter": "main-004",
+      "rewards": {
+        "gold": 5000,
+        "xp": 3000,
+        "items": []
+      },
+      "description": "Побочный квест: Охота за нефритовой сферой",
+      "howToStart": "В Checkpoint Rest Town",
+      "requirements": {
+        "quests": [
+          "main-004"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Hunt+for+the+Jadeite+Orb",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-020",
+      "type": "side",
+      "name": "Tolled to Rest",
+      "nameRu": "Почивший под звон",
+      "location": "Vermund",
+      "subLocation": null,
+      "order": 121,
+      "availableAfter": "main-004",
+      "rewards": {
+        "gold": 3200,
+        "xp": 1900,
+        "items": []
+      },
+      "description": "Побочный квест: Почивший под звон",
+      "howToStart": "Спасите Оскара",
+      "requirements": {
+        "quests": [
+          "main-004"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Tolled+to+Rest",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-021",
+      "type": "side",
+      "name": "Trouble on the Cape",
+      "nameRu": "Неприятности на мысе",
+      "location": "Vermund",
+      "subLocation": null,
+      "order": 122,
+      "availableAfter": "main-004",
+      "rewards": {
+        "gold": 2800,
+        "xp": 1700,
+        "items": []
+      },
+      "description": "Побочный квест: Неприятности на мысе",
+      "howToStart": "На мысе",
+      "requirements": {
+        "quests": [
+          "main-004"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Trouble+on+the+Cape",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-022",
+      "type": "side",
+      "name": "Scaly Invaders",
+      "nameRu": "Чешуйчатые захватчики",
+      "location": "Vermund",
+      "subLocation": null,
+      "order": 123,
+      "availableAfter": "main-004",
+      "rewards": {
+        "gold": 3500,
+        "xp": 2100,
+        "items": []
+      },
+      "description": "Побочный квест: Чешуйчатые захватчики",
+      "howToStart": "Нападение ящеров",
+      "requirements": {
+        "quests": [
+          "main-004"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Scaly+Invaders",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-023",
+      "type": "side",
+      "name": "The Arisen's Shadow",
+      "nameRu": "Тень Воскресшего",
+      "location": "Vermund",
+      "subLocation": null,
+      "order": 124,
+      "availableAfter": "main-004",
+      "rewards": {
+        "gold": 4500,
+        "xp": 2700,
+        "items": []
+      },
+      "description": "Побочный квест: Тень Воскресшего",
+      "howToStart": "Загадочная тень",
+      "requirements": {
+        "quests": [
+          "main-004"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/The+Arisen's+Shadow",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-024",
+      "type": "side",
+      "name": "Every Rose Has Its Thorn",
+      "nameRu": "У каждой розы есть шипы",
+      "location": "Vermund",
+      "subLocation": null,
+      "order": 125,
+      "availableAfter": "main-004",
+      "rewards": {
+        "gold": 5000,
+        "xp": 3000,
+        "items": []
+      },
+      "description": "Побочный квест: У каждой розы есть шипы",
+      "howToStart": "Романтический квест",
+      "requirements": {
+        "quests": [
+          "main-004"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": true,
+        "isRequired": false,
+        "isRomance": true,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Every+Rose+Has+Its+Thorn",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-025",
+      "type": "side",
+      "name": "Readvent of Calamity",
+      "nameRu": "Возвращение бедствия",
+      "location": "Vermund",
+      "subLocation": null,
+      "order": 126,
+      "availableAfter": "main-004",
+      "rewards": {
+        "gold": 5500,
+        "xp": 3300,
+        "items": []
+      },
+      "description": "Побочный квест: Возвращение бедствия",
+      "howToStart": "Романтический квест",
+      "requirements": {
+        "quests": [
+          "main-004"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": true,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Readvent+of+Calamity",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-026",
+      "type": "side",
+      "name": "Home Is Where the Hearth Is",
+      "nameRu": "Дом там где очаг",
+      "location": "Vermund",
+      "subLocation": null,
+      "order": 127,
+      "availableAfter": "main-004",
+      "rewards": {
+        "gold": 6000,
+        "xp": 3600,
+        "items": []
+      },
+      "description": "Побочный квест: Дом там где очаг",
+      "howToStart": "Романтический квест",
+      "requirements": {
+        "quests": [
+          "main-004"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": true,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Home+Is+Where+the+Hearth+Is",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-027",
+      "type": "side",
+      "name": "A Magisterial Amenity",
+      "nameRu": "Магистерская любезность",
+      "location": "Vermund",
+      "subLocation": null,
+      "order": 128,
+      "availableAfter": "main-004",
+      "rewards": {
+        "gold": 3000,
+        "xp": 1800,
+        "items": []
+      },
+      "description": "Побочный квест: Магистерская любезность",
+      "howToStart": "С магистратом",
+      "requirements": {
+        "quests": [
+          "main-004"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/A+Magisterial+Amenity",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-028",
+      "type": "side",
+      "name": "Spellbound",
+      "nameRu": "Околдованный",
+      "location": "Vermund",
+      "subLocation": null,
+      "order": 130,
+      "availableAfter": "main-013",
+      "rewards": {
+        "gold": 5200,
+        "xp": 3100,
+        "items": []
+      },
+      "description": "Побочный квест: Околдованный",
+      "howToStart": "Дом Эйни",
+      "requirements": {
+        "quests": [
+          "main-013"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Spellbound",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-029",
+      "type": "side",
+      "name": "A Veil of Gossamer Clouds",
+      "nameRu": "Вуаль из прозрачных облаков",
+      "location": "Vermund",
+      "subLocation": null,
+      "order": 131,
+      "availableAfter": "main-013",
+      "rewards": {
+        "gold": 4800,
+        "xp": 2900,
+        "items": []
+      },
+      "description": "Побочный квест: Вуаль из прозрачных облаков",
+      "howToStart": "С Свеном",
+      "requirements": {
+        "quests": [
+          "main-013"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/A+Veil+of+Gossamer+Clouds",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-030",
+      "type": "side",
+      "name": "Dulled Steel, Cold Forge",
+      "nameRu": "Тупая сталь, холодная кузница",
+      "location": "Vermund",
+      "subLocation": null,
+      "order": 132,
+      "availableAfter": "main-013",
+      "rewards": {
+        "gold": 3600,
+        "xp": 2200,
+        "items": []
+      },
+      "description": "Побочный квест: Тупая сталь, холодная кузница",
+      "howToStart": "С Романом",
+      "requirements": {
+        "quests": [
+          "main-013"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Dulled+Steel,+Cold+Forge",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-031",
+      "type": "side",
+      "name": "A Case of Sculptor's Block",
+      "nameRu": "Случай творческого кризиса скульптора",
+      "location": "Vermund",
+      "subLocation": null,
+      "order": 133,
+      "availableAfter": "main-013",
+      "rewards": {
+        "gold": 4500,
+        "xp": 2700,
+        "items": []
+      },
+      "description": "Побочный квест: Случай творческого кризиса скульптора",
+      "howToStart": "С Кларком",
+      "requirements": {
+        "quests": [
+          "main-013"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/A+Case+of+Sculptor's+Block",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-036",
+      "type": "side",
+      "name": "Crossing in Shadow",
+      "nameRu": "Переправа в тени",
+      "location": "Vermund",
+      "subLocation": "Vernworth",
+      "order": 136,
+      "availableAfter": "side-052",
+      "rewards": {
+        "gold": 6500,
+        "xp": 3900,
+        "items": []
+      },
+      "description": "Побочный квест: Переправа в тени",
+      "howToStart": "Дом ночью",
+      "requirements": {
+        "quests": [
+          "side-010",
+          "side-052"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Crossing+in+Shadow",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-037",
+      "type": "side",
+      "name": "Tensions on the Highroad",
+      "nameRu": "Напряжение на главном тракте",
+      "location": "Vermund",
+      "subLocation": null,
+      "order": 137,
+      "availableAfter": "side-044",
+      "rewards": {
+        "gold": 5000,
+        "xp": 3000,
+        "items": []
+      },
+      "description": "Побочный квест: Напряжение на главном тракте",
+      "howToStart": "После Battahl",
+      "requirements": {
+        "quests": [
+          "side-044"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Tensions+on+the+Highroad",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-038",
+      "type": "side",
+      "name": "The Phantom Oxcart",
+      "nameRu": "Призрачная повозка",
+      "location": "Vermund",
+      "subLocation": null,
+      "order": 138,
+      "availableAfter": "main-013",
+      "rewards": {
+        "gold": 4000,
+        "xp": 2400,
+        "items": []
+      },
+      "description": "Побочный квест: Призрачная повозка",
+      "howToStart": "Станция повозок",
+      "requirements": {
+        "quests": [
+          "main-013"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/The+Phantom+Oxcart",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-039",
+      "type": "side",
+      "name": "Prey for the Pack",
+      "nameRu": "Добыча для стаи",
+      "location": "Checkpoint",
+      "subLocation": null,
+      "order": 140,
+      "availableAfter": "main-013",
+      "rewards": {
+        "gold": 3500,
+        "xp": 2100,
+        "items": []
+      },
+      "description": "Побочный квест: Добыча для стаи",
+      "howToStart": "Аптека Морриса",
+      "requirements": {
+        "quests": [
+          "main-013"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": true,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Prey+for+the+Pack",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-040",
+      "type": "side",
+      "name": "Mercy among Thieves",
+      "nameRu": "Милосердие среди воров",
+      "location": "Checkpoint",
+      "subLocation": null,
+      "order": 141,
+      "availableAfter": "main-013",
+      "rewards": {
+        "gold": 7000,
+        "xp": 0,
+        "items": []
+      },
+      "description": "Побочный квест: Милосердие среди воров",
+      "howToStart": "Накормите Туми",
+      "requirements": {
+        "quests": [
+          "main-013"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Mercy+among+Thieves",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-041",
+      "type": "side",
+      "name": "Off the Pilfered Path",
+      "nameRu": "Вне разграбленной тропы",
+      "location": "Battahl",
+      "subLocation": null,
+      "order": 142,
+      "availableAfter": "side-040",
+      "rewards": {
+        "gold": 8000,
+        "xp": 4800,
+        "items": []
+      },
+      "description": "Побочный квест: Вне разграбленной тропы",
+      "howToStart": "После Mercy Among Thieves",
+      "requirements": {
+        "quests": [
+          "side-040"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": true,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Off+the+Pilfered+Path",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-042",
+      "type": "side",
+      "name": "A Game of Wits",
+      "nameRu": "Игра умов",
+      "location": "Checkpoint",
+      "subLocation": null,
+      "order": 143,
+      "availableAfter": "main-013",
+      "rewards": {
+        "gold": 5500,
+        "xp": 3300,
+        "items": []
+      },
+      "description": "Побочный квест: Игра умов",
+      "howToStart": "Святилища",
+      "requirements": {
+        "quests": [
+          "main-013"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/A+Game+of+Wits",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-043",
+      "type": "side",
+      "name": "The Sorcerer's Appraisal",
+      "nameRu": "Оценка чародея",
+      "location": "Checkpoint",
+      "subLocation": null,
+      "order": 144,
+      "availableAfter": "main-013",
+      "rewards": {
+        "gold": 4200,
+        "xp": 2500,
+        "items": []
+      },
+      "description": "Побочный квест: Оценка чародея",
+      "howToStart": "Дом Мирддина",
+      "requirements": {
+        "quests": [
+          "main-013"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/The+Sorcerer's+Appraisal",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-044",
+      "type": "side",
+      "name": "Welcome to Battahl",
+      "nameRu": "Добро пожаловать в Батталь",
+      "location": "Battahl",
+      "subLocation": null,
+      "order": 145,
+      "availableAfter": "main-013",
+      "rewards": {
+        "gold": 6000,
+        "xp": 3600,
+        "items": []
+      },
+      "description": "Побочный квест: Добро пожаловать в Батталь",
+      "howToStart": "Wanderer's Haven",
+      "requirements": {
+        "quests": [
+          "main-013"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Welcome+to+Battahl",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-045",
+      "type": "side",
+      "name": "Steeled Resolve, Blazing Forge",
+      "nameRu": "Стальная решимость, пылающая кузница",
+      "location": "Battahl",
+      "subLocation": null,
+      "order": 146,
+      "availableAfter": "side-030",
+      "rewards": {
+        "gold": 7000,
+        "xp": 4200,
+        "items": []
+      },
+      "description": "Побочный квест: Стальная решимость, пылающая кузница",
+      "howToStart": "С Сарой",
+      "requirements": {
+        "quests": [
+          "side-030"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Steeled+Resolve,+Blazing+Forge",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-046",
+      "type": "side",
+      "name": "Short-Sighted Ambition",
+      "nameRu": "Недальновидные амбиции",
+      "location": "Battahl",
+      "subLocation": null,
+      "order": 147,
+      "availableAfter": "main-013",
+      "rewards": {
+        "gold": 16000,
+        "xp": 3000,
+        "items": []
+      },
+      "description": "Побочный квест: Недальновидные амбиции",
+      "howToStart": "С Исааком",
+      "requirements": {
+        "quests": [
+          "main-013"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Short-Sighted+Ambition",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-047",
+      "type": "side",
+      "name": "A Poisonous Proposal",
+      "nameRu": "Ядовитое предложение",
+      "location": "Battahl",
+      "subLocation": null,
+      "order": 148,
+      "availableAfter": "main-013",
+      "rewards": {
+        "gold": 8500,
+        "xp": 5100,
+        "items": []
+      },
+      "description": "Побочный квест: Ядовитое предложение",
+      "howToStart": "С Джарле",
+      "requirements": {
+        "quests": [
+          "main-013"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/A+Poisonous+Proposal",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-048",
+      "type": "side",
+      "name": "Shadowed Prayers",
+      "nameRu": "Молитвы в тени",
+      "location": "Volcanic Island",
+      "subLocation": null,
+      "order": 150,
+      "availableAfter": "main-013",
+      "rewards": {
+        "gold": 6000,
+        "xp": 3600,
+        "items": []
+      },
+      "description": "Побочный квест: Молитвы в тени",
+      "howToStart": "С Менеллой",
+      "requirements": {
+        "quests": [
+          "main-013"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": true,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Shadowed+Prayers",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-049",
+      "type": "side",
+      "name": "Twixt a Rock and a Hard Place",
+      "nameRu": "Меж молотом и наковальней",
+      "location": "Battahl",
+      "subLocation": null,
+      "order": 151,
+      "availableAfter": "main-013",
+      "rewards": {
+        "gold": 7200,
+        "xp": 4300,
+        "items": []
+      },
+      "description": "Побочный квест: Меж молотом и наковальней",
+      "howToStart": "С Акакиосом",
+      "requirements": {
+        "quests": [
+          "main-013"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Twixt+a+Rock+and+a+Hard+Place",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-050",
+      "type": "side",
+      "name": "Put a Spring in Thy Step",
+      "nameRu": "Добавь пружинки в походку",
+      "location": "Volcanic Island",
+      "subLocation": null,
+      "order": 152,
+      "availableAfter": "main-013",
+      "rewards": {
+        "gold": 5000,
+        "xp": 3000,
+        "items": []
+      },
+      "description": "Побочный квест: Добавь пружинки в походку",
+      "howToStart": "С Гаутстафром",
+      "requirements": {
+        "quests": [
+          "main-013"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Put+a+Spring+in+Thy+Step",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-051",
+      "type": "side",
+      "name": "The Sotted Sage",
+      "nameRu": "Пьяный мудрец",
+      "location": "Volcanic Island",
+      "subLocation": null,
+      "order": 153,
+      "availableAfter": "main-013",
+      "rewards": {
+        "gold": 500,
+        "xp": 980,
+        "items": []
+      },
+      "description": "Побочный квест: Пьяный мудрец",
+      "howToStart": "С Ламондом",
+      "requirements": {
+        "quests": [
+          "main-013"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/The+Sotted+Sage",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-052",
+      "type": "side",
+      "name": "A Candle in the Storm",
+      "nameRu": "Свеча в буре",
+      "location": "Volcanic Island",
+      "subLocation": null,
+      "order": 154,
+      "availableAfter": "side-048",
+      "rewards": {
+        "gold": 25000,
+        "xp": 4800,
+        "items": []
+      },
+      "description": "Побочный квест: Свеча в буре",
+      "howToStart": "С Менеллой",
+      "requirements": {
+        "quests": [
+          "side-048"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/A+Candle+in+the+Storm",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-053",
+      "type": "side",
+      "name": "The Ailing Arborheart",
+      "nameRu": "Больное древесное сердце",
+      "location": "Sacred Arbor",
+      "subLocation": null,
+      "order": 155,
+      "availableAfter": "side-014",
+      "rewards": {
+        "gold": 13000,
+        "xp": 0,
+        "items": []
+      },
+      "description": "Побочный квест: Больное древесное сердце",
+      "howToStart": "С Дойрианн",
+      "requirements": {
+        "quests": [
+          "side-014"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/The+Ailing+Arborheart",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-054",
+      "type": "side",
+      "name": "Out of the Forest, Into the Forge",
+      "nameRu": "Из леса в кузницу",
+      "location": "Battahl",
+      "subLocation": null,
+      "order": 156,
+      "availableAfter": "side-053",
+      "rewards": {
+        "gold": 0,
+        "xp": 0,
+        "items": []
+      },
+      "description": "Побочный квест: Из леса в кузницу",
+      "howToStart": "Автоматически",
+      "requirements": {
+        "quests": [
+          "side-053"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": true,
+        "isRequired": true,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Out+of+the+Forest,+Into+the+Forge",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-055",
+      "type": "side",
+      "name": "Clash and Conclusion",
+      "nameRu": "Столкновение и развязка",
+      "location": "Volcanic Island",
+      "subLocation": null,
+      "order": 160,
+      "availableAfter": "side-037",
+      "rewards": {
+        "gold": 15000,
+        "xp": 7600,
+        "items": []
+      },
+      "description": "Побочный квест: Столкновение и развязка",
+      "howToStart": "На башне",
+      "requirements": {
+        "quests": [
+          "main-017",
+          "side-037"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Clash+and+Conclusion",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-056",
+      "type": "side",
+      "name": "Civil Unrest",
+      "nameRu": "Гражданские волнения",
+      "location": "Unmoored World",
+      "subLocation": "Bakbattahl",
+      "order": 200,
+      "availableAfter": "main-021",
+      "rewards": {
+        "gold": 0,
+        "xp": 0,
+        "items": []
+      },
+      "description": "Побочный квест: Гражданские волнения",
+      "howToStart": "С Менеллой",
+      "requirements": {
+        "quests": [
+          "main-021"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Civil+Unrest",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-057",
+      "type": "side",
+      "name": "Shepherd of the Pawns",
+      "nameRu": "Пастырь пешек",
+      "location": "Unmoored World",
+      "subLocation": null,
+      "order": 201,
+      "availableAfter": "main-021",
+      "rewards": {
+        "gold": 0,
+        "xp": 0,
+        "items": []
+      },
+      "description": "Побочный квест: Пастырь пешек",
+      "howToStart": "С Энрике",
+      "requirements": {
+        "quests": [
+          "main-021"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Shepherd+of+the+Pawns",
+          "language": "en"
+        },
+        {
+          "title": "Fextralife Wiki",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Saint+of+the+Slums"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-058",
+      "type": "side",
+      "name": "The Importance of Aiding Ernesto",
+      "nameRu": "Важность помощи Эрнесто",
+      "location": "Unmoored World",
+      "subLocation": null,
+      "order": 202,
+      "availableAfter": "main-021",
+      "rewards": {
+        "gold": 23000,
+        "xp": 4800,
+        "items": []
+      },
+      "description": "Побочный квест: Важность помощи Эрнесто",
+      "howToStart": "С Эрнесто",
+      "requirements": {
+        "quests": [
+          "main-021"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/The+Importance+of+Aiding+Ernesto",
+          "language": "en"
+        },
+        {
+          "title": "Fextralife Wiki",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Masked+Correspondence"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-059",
+      "type": "side",
+      "name": "The Regentkin's Resolve",
+      "nameRu": "Решимость родственника регента",
+      "location": "Unmoored World",
+      "subLocation": null,
+      "order": 203,
+      "availableAfter": "main-021",
+      "rewards": {
+        "gold": 0,
+        "xp": 0,
+        "items": []
+      },
+      "description": "Побочный квест: Решимость родственника регента",
+      "howToStart": "С Брантом",
+      "requirements": {
+        "quests": [
+          "main-021"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/The+Regentkin's+Resolve",
+          "language": "en"
+        },
+        {
+          "title": "Fextralife Wiki",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/A+Noble+Exchange"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-060",
+      "type": "side",
+      "name": "Wandering Roots",
+      "nameRu": "Блуждающие корни",
+      "location": "Unmoored World",
+      "subLocation": "Sacred Arbor",
+      "order": 204,
+      "availableAfter": "side-054",
+      "rewards": {
+        "gold": 0,
+        "xp": 0,
+        "items": []
+      },
+      "description": "Побочный квест: Блуждающие корни",
+      "howToStart": "С Глиндвром",
+      "requirements": {
+        "quests": [
+          "side-054",
+          "main-021"
+        ],
+        "level": null,
+        "items": []
+      },
+      "unlocks": [],
+      "flags": {
+        "isMissable": false,
+        "isRequired": false,
+        "isRomance": false,
+        "isCritical": false
+      },
+      "tags": [
+        "side"
+      ],
+      "links": [
+        {
+          "source": "VGTimes",
+          "url": "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html",
+          "language": "ru"
+        },
+        {
+          "source": "Fextralife",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Wandering+Roots",
+          "language": "en"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    },
+    {
+      "id": "side-61",
+      "type": "side",
+      "name": "Saint of the Slums",
+      "nameRu": "Святой из трущоб",
+      "location": "Vermund",
+      "subLocation": "Vernworth",
+      "order": 125,
+      "rewards": {
+        "gold": "Unknown",
+        "xp": "Unknown"
+      },
+      "description": "Quest in Vernworth.",
+      "howToStart": "Unknown",
+      "requirements": {},
+      "unlocks": [],
+      "flags": {
+        "isRequired": false,
+        "isMissable": false,
+        "isCritical": false,
+        "isRomance": false
+      },
+      "tags": [],
+      "links": [
+        {
+          "title": "Fextralife Wiki",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Saint+of+the+Slums"
+        }
+      ]
+    },
+    {
+      "id": "side-62",
+      "type": "side",
+      "name": "Masked Correspondence",
+      "nameRu": "Переписка в масках",
+      "location": "Vermund",
+      "subLocation": "Vernworth",
+      "order": 126,
+      "rewards": {
+        "gold": "Unknown",
+        "xp": "Unknown"
+      },
+      "description": "Quest in Vernworth.",
+      "howToStart": "Unknown",
+      "requirements": {},
+      "unlocks": [],
+      "flags": {
+        "isRequired": false,
+        "isMissable": false,
+        "isCritical": false,
+        "isRomance": false
+      },
+      "tags": [],
+      "links": [
+        {
+          "title": "Fextralife Wiki",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Masked+Correspondence"
+        }
+      ]
+    },
+    {
+      "id": "side-63",
+      "type": "side",
+      "name": "A Noble Exchange",
+      "nameRu": "Благородный обмен",
+      "location": "Vermund",
+      "subLocation": "Vernworth",
+      "order": 127,
+      "rewards": {
+        "gold": "Unknown",
+        "xp": "Unknown"
+      },
+      "description": "Quest in Vernworth.",
+      "howToStart": "Unknown",
+      "requirements": {},
+      "unlocks": [],
+      "flags": {
+        "isRequired": false,
+        "isMissable": false,
+        "isCritical": false,
+        "isRomance": false
+      },
+      "tags": [],
+      "links": [
+        {
+          "title": "Fextralife Wiki",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/A+Noble+Exchange"
+        }
+      ]
+    },
+    {
+      "id": "side-64",
+      "type": "side",
+      "name": "The Heel of History",
+      "nameRu": "Пята истории",
+      "location": "Vermund",
+      "subLocation": "Vernworth",
+      "order": 108,
+      "rewards": {
+        "gold": 6000,
+        "xp": 7200,
+        "items": []
+      },
+      "description": "Побочный квест в Вернворте",
+      "howToStart": "В Вернворте",
+      "requirements": {},
+      "unlocks": [],
+      "flags": {
+        "isRequired": false,
+        "isMissable": false,
+        "isCritical": false,
+        "isRomance": false
+      },
+      "tags": [],
+      "links": [
+        {
+          "title": "Fextralife Wiki",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/The+Heel+of+History"
+        }
+      ],
+      "npc": null,
+      "notes": null
+    }
+  ]
+}
