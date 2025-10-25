@@ -15,7 +15,7 @@ export const Header: React.FC<HeaderProps> = ({ onReset }) => {
       <div className="header-container">
         <div className="header-brand">
           <img 
-            src="/header_logo.png" 
+            src="./header_logo.png" 
             alt="Dragon's Dogma 2" 
             className="header-logo"
           />

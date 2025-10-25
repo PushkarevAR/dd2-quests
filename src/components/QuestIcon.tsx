@@ -30,35 +30,35 @@ interface QuestIconProps {
 // Маппинг типов на файлы иконок
 const iconMap: Record<QuestIconType, string> = {
   // Типы квестов
-  main: '/main_quest_icon.png',
-  side: '/side_quest.png',
-  romance: '/rose_icon.png',
+  main: './main_quest_icon.png',
+  side: './side_quest.png',
+  romance: './rose_icon.png',
   
   // Награды
-  gold: '/treasure_icon.png',
-  xp: '/potion_icon.png',
-  item: '/glass_ball_icon.png',
+  gold: './treasure_icon.png',
+  xp: './potion_icon.png',
+  item: './glass_ball_icon.png',
   
   // Локации
-  vermund: '/home_icon.png',
-  battahl: '/gate_icon.png',
-  volcanic: '/cave_icon.png',
-  unmoored: '/way_point_icon.png',
+  vermund: './home_icon.png',
+  battahl: './gate_icon.png',
+  volcanic: './cave_icon.png',
+  unmoored: './way_point_icon.png',
   
   // Флаги
-  required: '/scar_icon.png',
-  missable: '/exit_icon.png',
-  critical: '/warrior_icon.png',
+  required: './scar_icon.png',
+  missable: './exit_icon.png',
+  critical: './warrior_icon.png',
   
   // Секции
-  info: '/notes_icon.png',
-  target: '/way_point_icon.png',
-  unlock: '/gate_icon.png',
-  note: '/notes_icon.png',
-  link: '/fast_travel_icon.png',
+  info: './notes_icon.png',
+  target: './way_point_icon.png',
+  unlock: './gate_icon.png',
+  note: './notes_icon.png',
+  link: './fast_travel_icon.png',
   
   // Другое
-  level: '/level_1_icon.png'
+  level: './level_1_icon.png'
 };
 
 const iconAlt: Record<QuestIconType, string> = {

@@ -31,7 +31,7 @@ export const QuestDetails: React.FC<QuestDetailsProps> = ({
       <div className="quest-details quest-details-empty">
         <div className="quest-details-empty-content">
           <img 
-            src="/DD2_title_logo_GL.png" 
+            src="./DD2_title_logo_GL.png" 
             alt="Dragon's Dogma 2" 
             className="empty-logo"
           />
