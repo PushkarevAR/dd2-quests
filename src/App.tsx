@@ -7,6 +7,7 @@ import { QuestList } from './components/QuestList';
 import { QuestDetails } from './components/QuestDetails';
 import { useQuestProgress } from './hooks/useQuestProgress';
 import type { QuestsData } from './types/quest';
+import { questsData as importedQuestsData } from './data/quests';
 
 const App = () => {
   const [questsData, setQuestsData] = useState<QuestsData | null>(null);
@@ -16,20 +17,14 @@ const App = () => {
 
   // Загрузка данных квестов
   useEffect(() => {
-    fetch('/quests.json')
-      .then(res => {
-        if (!res.ok) throw new Error('Failed to load quests');
-        return res.json();
-      })
-      .then((data: QuestsData) => {
-        setQuestsData(data);
-        setLoading(false);
-      })
-      .catch(err => {
-        console.error('Error loading quests:', err);
-        setError('Не удалось загрузить данные квестов');
-        setLoading(false);
-      });
+    try {
+      setQuestsData(importedQuestsData);
+      setLoading(false);
+    } catch (err) {
+      console.error('Error loading quests:', err);
+      setError('Не удалось загрузить данные квестов');
+      setLoading(false);
+    }
   }, []);
 
   // Хук для работы с прогрессом
