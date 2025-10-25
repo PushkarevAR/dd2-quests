@@ -121,10 +121,10 @@ export function useQuestProgress(quests: Quest[]) {
     const side = calculateStats(sideQuests);
     
     // По локациям
-    const vermund = calculateStats(quests.filter(q => q.location === 'Vermund'));
-    const battahl = calculateStats(quests.filter(q => q.location === 'Battahl'));
-    const volcanic = calculateStats(quests.filter(q => q.location === 'Volcanic Island'));
-    const unmoored = calculateStats(quests.filter(q => q.location === 'Unmoored World'));
+    const vermund = calculateStats(quests.filter(q => q.location === 'Королевство Вермунд'));
+    const battahl = calculateStats(quests.filter(q => q.location === 'Королевство Батталь'));
+    const volcanic = calculateStats(quests.filter(q => q.location === 'Вулканический остров'));
+    const unmoored = calculateStats(quests.filter(q => q.location === 'Изнанка мира'));
     
     // Всего
     const total = calculateStats(quests);

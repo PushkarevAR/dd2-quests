@@ -10,7 +10,7 @@
       "type": "main",
       "name": "Gaoled Awakening",
       "nameRu": "Пробуждение в темнице",
-      "location": "Vermund",
+      "location": "Королевство Вермунд",
       "subLocation": null,
       "order": 1,
       "availableAfter": null,
@@ -19,7 +19,7 @@
         "xp": 0,
         "items": []
       },
-      "description": "Автоматический пролог игры",
+      "description": "Автоматический пролог игры. Gaoled Awakening — это квест в Dragon's Dogma 2 (DD2). Добро пожаловать в Dragon's Dogma 2! Ваше путешествие начинается на месте раскопок «Тюрьма», это первый квест, который игроки начинают в Dragon's Dogma 2. Создайте своего персонажа из предустановленного или выберите заключенного в капюшоне, чтобы настроить свой внешний вид с чистого листа. Этот квест также послужит обучающим разделом по изучению базовой механики передвижения и боя. Пока вы выполняете свою задачу, ужасное существо нарушает порядок на месте раскопок. Вам нужно объединить усилия с другими заключенными, чтобы отбиться от существа. Этот квест не зависит от течения времени. У этого квеста нет нескольких исходов.",
       "howToStart": "Автоматически",
       "requirements": {
         "quests": [],
@@ -59,7 +59,7 @@
       "type": "main",
       "name": "Tale's Beginning",
       "nameRu": "Начало истории",
-      "location": "Vermund",
+      "location": "Королевство Вермунд",
       "subLocation": null,
       "order": 2,
       "availableAfter": "main-001",
@@ -68,7 +68,7 @@
         "xp": 1800,
         "items": []
       },
-      "description": "Первый основной квест",
+      "description": "Первый основной квест. «Начало сказки» — квест в Dragon's Dogma 2 (DD2). Вы сбежали с места раскопок, где храбро сражались с Горгоной и обрели свободу. Но вас сбили с неба, и вы просыпаетесь у водопада, наблюдая, как вашего спутника, Рук, поглощает Рассол. Вас находит солдат по имени Джастинн и просит проводить его в безопасное место. Квест «Начало сказки» не имеет множественных исходов и требует от игрока завершения задания «Пробуждение из тюрьмы» для его разблокировки. Этот квест не зависит от течения времени. У этого квеста нет множественных исходов.",
       "howToStart": "После Gaoled Awakening",
       "requirements": {
         "quests": [
@@ -111,8 +111,8 @@
       "type": "main",
       "name": "In Dragon's Wake",
       "nameRu": "По следам дракона",
-      "location": "Vermund",
-      "subLocation": "Melve",
+      "location": "Королевство Вермунд",
+      "subLocation": "Мелве",
       "order": 3,
       "availableAfter": "main-002",
       "rewards": {
@@ -120,7 +120,7 @@
         "xp": 3000,
         "items": []
       },
-      "description": "Помогите деревне Мелва",
+      "description": "Помогите деревне Мелва. «Во имя Дракона» — задание в Dragon's Dogma 2 (DD2). Вы прибыли на заставу Пограничной стражи и, отдохнув в зале Пограничной стражи, восстановились. Узнав о нападении на Мелву, вы отправляетесь в крепость в надежде вернуть утраченные воспоминания. Задание «Во имя Дракона» имеет несколько вариантов завершения: принять и полностью сопровождать Грегора в столицу или отклонить его просьбу и добраться до дворца Вернворт без него. Это задание становится доступным после завершения задания «Начало истории». На это задание не влияет течение времени. У этого задания нет нескольких вариантов завершения.",
       "howToStart": "От Бранта",
       "requirements": {
         "quests": [
@@ -169,8 +169,8 @@
       "type": "main",
       "name": "Seat of the Sovran",
       "nameRu": "Трон суверена",
-      "location": "Vermund",
-      "subLocation": "Vernworth",
+      "location": "Королевство Вермунд",
+      "subLocation": "Вернворт",
       "order": 4,
       "availableAfter": "main-003",
       "rewards": {
@@ -178,7 +178,7 @@
         "xp": 4500,
         "items": []
       },
-      "description": "Аудиенция у правителя",
+      "description": "Аудиенция у правителя. «Трон Соврана» — квест в Dragon's Dogma 2 (DD2). Прибыв в Мелве, вы каким-то образом вернули себе память и узнали, что вы — Воскресший. Страж по имени Грегор, разыскивающий Воскресшего, нашёл вас и просит сопроводить его обратно в столицу. По прибытии вас схватили, чтобы доказать вашу личность, и капитан Брант приходит вам на помощь, чтобы придумать заговор, чтобы доказать, что вы — Воскресший, и найти способ раскрыть злодеяния Дисы. Этот квест не зависит от течения времени. У него нет нескольких исходов.",
       "howToStart": "После In Dragon's Wake",
       "requirements": {
         "quests": [
@@ -220,7 +220,7 @@
       "type": "main",
       "name": "Monster Culling",
       "nameRu": "Истребление монстров",
-      "location": "Vermund",
+      "location": "Королевство Вермунд",
       "subLocation": null,
       "order": 5,
       "availableAfter": "main-004",
@@ -229,7 +229,7 @@
         "xp": 5000,
         "items": []
       },
-      "description": "Победите 3 монстров",
+      "description": "Победите 3 монстров. «Уничтожение монстров» — это задание в Dragon's Dogma 2 (DD2). Капитан Брант просит вашей помощи в выполнении трёх различных заданий: уничтожить гоблинов в шахте Трево, уничтожить ящеров в деревне Харв и помочь с доставкой на восток Вермунда. Играя за Восставшего, вместе со своими Пешками, вы можете продемонстрировать свою силу, помогая людям Бранта. Это задание можно открыть, приняв задание по уничтожению монстров в разговоре с Брантом в таверне «Звёздная капля» в Вернворте во время задания «Престол Соврана». Это задание не зависит от времени. У этого задания нет нескольких исходов.",
       "howToStart": "От Бранта",
       "requirements": {
         "quests": [
@@ -271,7 +271,7 @@
       "type": "main",
       "name": "Disa's Plot",
       "nameRu": "Заговор Дизы",
-      "location": "Vermund",
+      "location": "Королевство Вермунд",
       "subLocation": null,
       "order": 6,
       "availableAfter": "main-005",
@@ -280,7 +280,7 @@
         "xp": 6000,
         "items": []
       },
-      "description": "Расследуйте заговор",
+      "description": "Расследуйте заговор. «Заговор Дизы» — это квест в Dragon's Dogma 2 (DD2). Капитан Брант пролил свет на проступок Дизы и просит вас, Воскресшего, проникнуть во дворец и собрать достаточно улик, чтобы раскрыть секреты королевы. Для выполнения этого задания игроку необходимо добраться до задних ворот замка в период между полуночью и рассветом. Этот квест требует времени и не имеет нескольких исходов.",
       "howToStart": "Основной сюжет",
       "requirements": {
         "quests": [
@@ -320,7 +320,7 @@
       "type": "main",
       "name": "The Caged Magistrate",
       "nameRu": "Пленённый магистрат",
-      "location": "Vermund",
+      "location": "Королевство Вермунд",
       "subLocation": null,
       "order": 7,
       "availableAfter": "main-007",
@@ -329,7 +329,7 @@
         "xp": 7800,
         "items": []
       },
-      "description": "Спасите магистрата",
+      "description": "Спасите магистрата. «Министрат в клетке» — это задание в Dragon's Dogma 2 (DD2). Брант сообщил вам важные новости о человеке, который поддержит вас. Валдар, мировой судья, отказавшийся выполнить приказ Дисы, заключён в тюрьму под дворцом. Брант просит Воскресшего помочь ему освободить магистрата, который подтвердит личность и правоту Воскресшего. Задание открывается выбором «Принять» в диалоге с Брантом в таверне «Звёздная капля» во время задания «Трон Соврана». Этот квест не зависит от времени. У этого задания нет нескольких исходов.",
       "howToStart": "Основной сюжет",
       "requirements": {
         "quests": [],
@@ -369,7 +369,7 @@
       "type": "side",
       "name": "The Nameless Village",
       "nameRu": "Безымянная деревня",
-      "location": "Vermund",
+      "location": "Королевство Вермунд",
       "subLocation": null,
       "order": 109,
       "availableAfter": "main-008",
@@ -420,7 +420,7 @@
       "type": "main",
       "name": "The Stolen Throne",
       "nameRu": "Украденный трон",
-      "location": "Vermund",
+      "location": "Королевство Вермунд",
       "subLocation": null,
       "order": 8,
       "availableAfter": "main-009",
@@ -429,7 +429,7 @@
         "xp": 9600,
         "items": []
       },
-      "description": "Верните наследника",
+      "description": "Верните наследника. «Украденный трон» — квест в Dragon's Dogma 2 (DD2). В этом квесте вам предстоит проникнуть на один из маскарадов, устроенных дворянами в честь предполагаемой боевой доблести лже-Соврана, пока он восстанавливается после боевых ранений. В ходе этого квеста вы встретитесь с леди Вильгельминой, которая позволит вам взглянуть на организаторов королевской аферы. Этот квест открывается после того, как вы спросите доброго капитана Бранта о маскарадах. Этот вариант диалога становится доступен вам после завершения любого из начальных квестов капитана Брандта, например, «Охота на монстров». Этот квест зависит от течения времени.",
       "howToStart": "Основной сюжет",
       "requirements": {
         "quests": [
@@ -471,7 +471,7 @@
       "type": "main",
       "name": "An Unsettling Encounter",
       "nameRu": "Тревожная встреча",
-      "location": "Vermund",
+      "location": "Королевство Вермунд",
       "subLocation": null,
       "order": 9,
       "availableAfter": "main-010",
@@ -480,7 +480,7 @@
         "xp": 10200,
         "items": []
       },
-      "description": "Встреча с силой",
+      "description": "Встреча с силой. «Неприятная встреча» — это задание в Dragon's Dogma 2 (DD2). В этом задании вам предстоит снова проникнуть в Королевский квартал Вернворта, на этот раз, чтобы найти и разведать покои Алларда. Сын королевы-регента, Свен, оказался вашим верным союзником и доложил министру Алларду о подозрительной доставке. Учитывая обстоятельства этой доставки, оба ваших союзника посчитали важным провести расследование. Это задание открывается после того, как вы спросите доброго капитана Бранта об Алларде. Этот вариант диалога станет доступен вам после завершения задания «Заговор Дисы». На это задание влияет течение времени.",
       "howToStart": "Основной сюжет",
       "requirements": {
         "quests": [
@@ -522,7 +522,7 @@
       "type": "main",
       "name": "Feast of Deception",
       "nameRu": "Пир обмана",
-      "location": "Vermund",
+      "location": "Королевство Вермунд",
       "subLocation": null,
       "order": 10,
       "availableAfter": "main-011",
@@ -531,7 +531,7 @@
         "xp": 10800,
         "items": []
       },
-      "description": "Королевский пир",
+      "description": "Королевский пир. «Пир обмана» — это квест в Dragon's Dogma 2 (DD2). В этом квесте вам предстоит попытаться посетить коронацию, получив приглашение в награду за недавние усилия по оказанию помощи жителям Вермунда и продвижению своего дела как истинного Воскресшего и законного Владыки Вермунда. К сожалению, вас останавливает таинственная сила Божественного Пути, которая дарует ложному Владыке власть над Пешками, даже переписывая ваше собственное командование как Воскресшего. Неустрашимые, вы и добрый капитан Брант составляете план, чтобы узнать больше о Божественном Пути и как его разрушить. На этот квест влияет течение времени, а также выбранный исход предыдущего побочного квеста «Тень Воскресшего».",
       "howToStart": "Основной сюжет",
       "requirements": {
         "quests": [
@@ -573,7 +573,7 @@
       "type": "main",
       "name": "Nation of the Lambent Flame",
       "nameRu": "Нация пламенного света",
-      "location": "Battahl",
+      "location": "Королевство Батталь",
       "subLocation": null,
       "order": 11,
       "availableAfter": "main-012",
@@ -582,7 +582,7 @@
         "xp": 12000,
         "items": []
       },
-      "description": "Путешествие в Battahl",
+      "description": "Путешествие в Battahl. «Нация Сверкающего Пламени» — это квест в Dragon's Dogma 2 (DD2). В этом квесте вам предстоит отправиться в соседнюю страну Батталь в поисках ответа на вопрос о том, как остановить силу Божественного Пути, которая полностью сводит на нет вашу власть над Пешками. Добравшись до Батталь, вы встречаете Менеллу, которая рассказывает вам о проблемах страны и просит вас помочь в их решении в обмен на вид на жительство, который не позволит никому шпионить и мешать вам выполнять вашу задачу. Этот квест автоматически разблокируется после завершения квеста «Пир обмана». На этот квест не влияет течение времени.",
       "howToStart": "Основной сюжет",
       "requirements": {
         "quests": [
@@ -624,7 +624,7 @@
       "type": "main",
       "name": "Flickering Shadows",
       "nameRu": "Мерцающие тени",
-      "location": "Battahl",
+      "location": "Королевство Батталь",
       "subLocation": null,
       "order": 12,
       "availableAfter": "main-013",
@@ -633,7 +633,7 @@
         "xp": 13200,
         "items": []
       },
-      "description": "Тени в Battahl",
+      "description": "Тени в Battahl. «Мерцающие тени» — это квест в Dragon's Dogma 2 (DD2). В этом квесте вы начнёте свои исследования Божественного Пути и узнаете, как победить его силу. В ходе своих поисков вы обнаруживаете существование исследователей в Баттале, которые обнаружили способ подпитывать Божественный Путь особыми синими кристаллами. Изучая эти кристаллы, вы обнаруживаете связь с местом под водой, которое позже поднимается со дна моря. Теперь вам предстоит раскрыть его секреты и понять, как оно связано с вашей силой как Воскресшего. Этот квест не зависит от течения времени. У этого квеста нет нескольких исходов, но он может дать вам дополнительные знания о мире в зависимости от того, проигнорируете ли вы необязательную задачу.",
       "howToStart": "Основной сюжет",
       "requirements": {
         "quests": [
@@ -675,7 +675,7 @@
       "type": "main",
       "name": "Convergence",
       "nameRu": "Схождение",
-      "location": "Battahl",
+      "location": "Королевство Батталь",
       "subLocation": null,
       "order": 13,
       "availableAfter": "main-014",
@@ -684,7 +684,7 @@
         "xp": 14400,
         "items": []
       },
-      "description": "Судьбы сходятся",
+      "description": "Судьбы сходятся. «Сближение» — это квест в Dragon's Dogma 2 (DD2). В этом квесте вам предстоит исследовать новое сооружение, только что поднявшееся со дна моря недалеко от деревни Харв, когда вы только что услышали от Старейшины Риважа историю о королевстве, основанном правителем с небес. Почувствовав исходящую от сооружения энергию своего Возрождения, вы отправились на разведку. Внутри вас ждёт неожиданная встреча: вы исследуете глубины сооружения и узнаете немного о кровавой истории Вермунда. Этот квест начинается автоматически после завершения игроками квеста «Мерцающие тени». На этот квест не влияет течение времени.",
       "howToStart": "Основной сюжет",
       "requirements": {
         "quests": [
@@ -726,7 +726,7 @@
       "type": "main",
       "name": "A New Godsway",
       "nameRu": "Новый путь богов",
-      "location": "Battahl",
+      "location": "Королевство Батталь",
       "subLocation": null,
       "order": 14,
       "availableAfter": "main-015",
@@ -735,7 +735,7 @@
         "xp": 15600,
         "items": []
       },
-      "description": "Путь богов",
+      "description": "Путь богов. «Новый Путь Бога» — это задание в Dragon's Dogma 2 (DD2). Это задание выполняется в регионе Баттал и Лесу Кровавого Дракона. В нём ваш персонаж собирает необходимые предметы для починки затупившегося клинка Пути Бога. Это задание начинается автоматически после завершения игроками задания «Сближение». На это задание не влияет течение времени.",
       "howToStart": "Основной сюжет",
       "requirements": {
         "quests": [
@@ -777,7 +777,7 @@
       "type": "main",
       "name": "The Guardian Gigantus",
       "nameRu": "Страж-гигант",
-      "location": "Battahl",
+      "location": "Королевство Батталь",
       "subLocation": null,
       "order": 15,
       "availableAfter": "main-016",
@@ -786,7 +786,7 @@
         "xp": 16800,
         "items": []
       },
-      "description": "Сражение с гигантом",
+      "description": "Сражение с гигантом. «Страж Гигантус» — это квест в Dragon's Dogma 2 (DD2). В этом квесте вам предстоит сразиться с Талосом, Стражем Гигантусом, и не дать гиганту добраться до Башни Лунного Сияния. Вам предстоит не только сражаться с гигантом вместе со своей пешкой, но и использовать NPC-солдаты, чтобы остановить Гигантуса. Этот квест начинается автоматически после завершения игроками квеста «Новый Путь Бога». На этот квест влияет течение времени. Однако он будет выполнен независимо от действий игрока, что повлияет на награды, кат-сцены и дальнейший контент.",
       "howToStart": "Основной сюжет",
       "requirements": {
         "quests": [
@@ -828,7 +828,7 @@
       "type": "main",
       "name": "Legacy",
       "nameRu": "Наследие",
-      "location": "Battahl",
+      "location": "Королевство Батталь",
       "subLocation": null,
       "order": 16,
       "availableAfter": "main-017",
@@ -837,7 +837,7 @@
         "xp": 18000,
         "items": []
       },
-      "description": "Начало Unmoored World",
+      "description": "Начало Unmoored World. «Наследие» — это задание в Dragon's Dogma 2 (DD2). Вы встречаете Фазеуса на вершине Башни Лунного Сияния. В этом задании необходимо сделать выбор, который определит судьбу мира. Это задание начинается автоматически после завершения игроками задания «Новый Путь Бога». На это задание не влияет течение времени.",
       "howToStart": "После гиганта",
       "requirements": {
         "quests": [
@@ -879,7 +879,7 @@
       "type": "main",
       "name": "Dreams Apart",
       "nameRu": "Разделённые мечты",
-      "location": "Unmoored World",
+      "location": "Изнанка мира",
       "subLocation": null,
       "order": 17,
       "availableAfter": "main-018",
@@ -888,7 +888,7 @@
         "xp": 19200,
         "items": []
       },
-      "description": "Продолжение Unmoored",
+      "description": "Продолжение Unmoored. «Dreams Apart» — это квест в Dragon's Dogma 2 (DD2). Вы оказываетесь в Отчаянном Мире, где всё погружено в хаос. Теперь вам нужно воссоединиться со своей пешкой и разобраться, что происходит. Этот квест начинается автоматически после того, как игроки завершают квест «Наследие» и заканчивают его, убивая себя во время путешествия на спине дракона. Этот квест не зависит от течения времени.",
       "howToStart": "Основной сюжет",
       "requirements": {
         "quests": [
@@ -930,7 +930,7 @@
       "type": "main",
       "name": "A Scholarly Pursuit",
       "nameRu": "Учёное преследование",
-      "location": "Unmoored World",
+      "location": "Изнанка мира",
       "subLocation": null,
       "order": 18,
       "availableAfter": "main-019",
@@ -939,7 +939,7 @@
         "xp": 20400,
         "items": []
       },
-      "description": "Поиски знаний",
+      "description": "Поиски знаний. «Учёный поиск» — это задание в Dragon's Dogma 2 (DD2). В центре Бакбаттала был замечен странный луч света. Исследуйте область вместе с Фазеусом. Это задание начинается автоматически после того, как игроки завершат задание «Наследие» и завершат его, убив себя во время путешествия на спине Дргаона. Это задание не зависит от течения времени.",
       "howToStart": "Основной сюжет",
       "requirements": {
         "quests": [
@@ -981,7 +981,7 @@
       "type": "main",
       "name": "Halls of the First Dawn",
       "nameRu": "Залы первого рассвета",
-      "location": "Unmoored World",
+      "location": "Изнанка мира",
       "subLocation": null,
       "order": 19,
       "availableAfter": "main-020",
@@ -990,7 +990,7 @@
         "xp": 21600,
         "items": []
       },
-      "description": "Начните эвакуацию",
+      "description": "Начните эвакуацию. «Залы Первого Рассвета» — квест в Dragon's Dogma 2 (DD2). Луз сказала вам, что вам нужно спасти мир, эвакуировав города и деревни в Святилище на морском дне. Однако время поджимает, и вам нужно ускорить свой поход в разные города. Этот квест начинается, когда игроки находят Ротайса в Святилище на морском дне Непричаленного Мира после квеста «Разлука снов». Из-за изменившейся механики на этом этапе сюжета этот квест может быть провален, если вы отдохнете достаточное количество раз.",
       "howToStart": "От Ротиаса",
       "requirements": {
         "quests": [
@@ -1032,7 +1032,7 @@
       "type": "main",
       "name": "When Wills Collide",
       "nameRu": "Когда воли сталкиваются",
-      "location": "Unmoored World",
+      "location": "Изнанка мира",
       "subLocation": null,
       "order": 20,
       "availableAfter": "main-021",
@@ -1043,7 +1043,7 @@
           "Концовка"
         ]
       },
-      "description": "ФИНАЛ ИГРЫ",
+      "description": "ФИНАЛ ИГРЫ. «Когда Уиллс Столкновение» — это задание в Dragon's Dogma 2 (DD2). Присоединяйтесь к Фесусу и станьте свидетелем его плана бросить вызов концу времён. Это задание можно начать, выполнив задание «Разлука снов» и подойдя к Талосу у лагеря на вулканическом острове. На это задание не влияет течение времени, однако, если трижды отдохнуть в непричаленном мире перед его получением или выполнением, туман усилится, и задание станет «потерянным».",
       "howToStart": "Основной сюжет",
       "requirements": {
         "quests": [
@@ -1083,8 +1083,8 @@
       "type": "side",
       "name": "Ordeals of a New Recruit",
       "nameRu": "Испытания нового рекрута",
-      "location": "Vermund",
-      "subLocation": "Borderwatch Outpost",
+      "location": "Королевство Вермунд",
+      "subLocation": "Застава на границе",
       "order": 100,
       "availableAfter": "main-002",
       "rewards": {
@@ -1131,8 +1131,8 @@
       "type": "side",
       "name": "Claw Them Into Shape",
       "nameRu": "Вышколить когтями",
-      "location": "Vermund",
-      "subLocation": "Borderwatch Outpost",
+      "location": "Королевство Вермунд",
+      "subLocation": "Застава на границе",
       "order": 101,
       "availableAfter": "main-003",
       "rewards": {
@@ -1179,8 +1179,8 @@
       "type": "side",
       "name": "The Provisioner's Plight",
       "nameRu": "Беда поставщика",
-      "location": "Vermund",
-      "subLocation": "Borderwatch Outpost",
+      "location": "Королевство Вермунд",
+      "subLocation": "Застава на границе",
       "order": 102,
       "availableAfter": "main-003",
       "rewards": {
@@ -1227,8 +1227,8 @@
       "type": "side",
       "name": "Beren's Final Lesson",
       "nameRu": "Последний урок Берена",
-      "location": "Vermund",
-      "subLocation": "Moonglow Garden",
+      "location": "Королевство Вермунд",
+      "subLocation": "Сад Лунного Света",
       "order": 103,
       "availableAfter": "side-002",
       "rewards": {
@@ -1275,8 +1275,8 @@
       "type": "side",
       "name": "Medicament Predicament",
       "nameRu": "Затруднение с лекарством",
-      "location": "Vermund",
-      "subLocation": "Melve",
+      "location": "Королевство Вермунд",
+      "subLocation": "Мелве",
       "order": 104,
       "availableAfter": "main-003",
       "rewards": {
@@ -1323,8 +1323,8 @@
       "type": "side",
       "name": "Brothers Brave and Timid",
       "nameRu": "Храбрый и робкий братья",
-      "location": "Vermund",
-      "subLocation": "Melve",
+      "location": "Королевство Вермунд",
+      "subLocation": "Мелве",
       "order": 105,
       "availableAfter": "main-003",
       "rewards": {
@@ -1371,8 +1371,8 @@
       "type": "side",
       "name": "Nesting Troubles",
       "nameRu": "Проблемы с гнездом",
-      "location": "Vermund",
-      "subLocation": "Melve",
+      "location": "Королевство Вермунд",
+      "subLocation": "Мелве",
       "order": 106,
       "availableAfter": "main-003",
       "rewards": {
@@ -1419,7 +1419,7 @@
       "type": "side",
       "name": "One-Eyed Interloper",
       "nameRu": "Одноглазый пришелец",
-      "location": "Vermund",
+      "location": "Королевство Вермунд",
       "subLocation": null,
       "order": 107,
       "availableAfter": "main-003",
@@ -1467,8 +1467,8 @@
       "type": "side",
       "name": "A Beggar's Tale",
       "nameRu": "Рассказ нищего",
-      "location": "Vermund",
-      "subLocation": "Vernworth",
+      "location": "Королевство Вермунд",
+      "subLocation": "Вернворт",
       "order": 110,
       "availableAfter": "main-004",
       "rewards": {
@@ -1515,8 +1515,8 @@
       "type": "side",
       "name": "A Place to Call Home",
       "nameRu": "Место, что зовётся домом",
-      "location": "Vermund",
-      "subLocation": "Vernworth",
+      "location": "Королевство Вермунд",
+      "subLocation": "Вернворт",
       "order": 111,
       "availableAfter": "main-004",
       "rewards": {
@@ -1563,8 +1563,8 @@
       "type": "side",
       "name": "The Ornate Box",
       "nameRu": "Украшенная шкатулка",
-      "location": "Vermund",
-      "subLocation": "Vernworth",
+      "location": "Королевство Вермунд",
+      "subLocation": "Вернворт",
       "order": 112,
       "availableAfter": "main-004",
       "rewards": {
@@ -1611,8 +1611,8 @@
       "type": "side",
       "name": "Oxcart Courier",
       "nameRu": "Курьер на повозке",
-      "location": "Vermund",
-      "subLocation": "Vernworth",
+      "location": "Королевство Вермунд",
+      "subLocation": "Вернворт",
       "order": 113,
       "availableAfter": "main-004",
       "rewards": {
@@ -1659,8 +1659,8 @@
       "type": "side",
       "name": "Gift of the Bow",
       "nameRu": "Дар лука",
-      "location": "Vermund",
-      "subLocation": "Vernworth",
+      "location": "Королевство Вермунд",
+      "subLocation": "Вернворт",
       "order": 114,
       "availableAfter": "main-004",
       "rewards": {
@@ -1707,8 +1707,8 @@
       "type": "side",
       "name": "A Trial of Archery",
       "nameRu": "Испытание в стрельбе из лука",
-      "location": "Vermund",
-      "subLocation": "Vernworth",
+      "location": "Королевство Вермунд",
+      "subLocation": "Вернворт",
       "order": 115,
       "availableAfter": "side-013",
       "rewards": {
@@ -1755,8 +1755,8 @@
       "type": "side",
       "name": "The Gift of Giving",
       "nameRu": "Дар дарения",
-      "location": "Vermund",
-      "subLocation": "Vernworth",
+      "location": "Королевство Вермунд",
+      "subLocation": "Вернворт",
       "order": 116,
       "availableAfter": "main-004",
       "rewards": {
@@ -1803,8 +1803,8 @@
       "type": "side",
       "name": "House of the Blue Sunbright",
       "nameRu": "Дом синего солнечного света",
-      "location": "Vermund",
-      "subLocation": "Vernworth",
+      "location": "Королевство Вермунд",
+      "subLocation": "Вернворт",
       "order": 117,
       "availableAfter": "side-015",
       "rewards": {
@@ -1851,8 +1851,8 @@
       "type": "side",
       "name": "Till Death Do Us Part",
       "nameRu": "Пока смерть не разлучит нас",
-      "location": "Vermund",
-      "subLocation": "Vernworth",
+      "location": "Королевство Вермунд",
+      "subLocation": "Вернворт",
       "order": 118,
       "availableAfter": "main-004",
       "rewards": {
@@ -1899,8 +1899,8 @@
       "type": "side",
       "name": "Vocation Frustration",
       "nameRu": "Разочарование в призвании",
-      "location": "Vermund",
-      "subLocation": "Vernworth",
+      "location": "Королевство Вермунд",
+      "subLocation": "Вернворт",
       "order": 119,
       "availableAfter": "main-004",
       "rewards": {
@@ -1947,7 +1947,7 @@
       "type": "side",
       "name": "Hunt for the Jadeite Orb",
       "nameRu": "Охота за нефритовой сферой",
-      "location": "Checkpoint",
+      "location": "Приграничный город",
       "subLocation": null,
       "order": 120,
       "availableAfter": "main-004",
@@ -1995,7 +1995,7 @@
       "type": "side",
       "name": "Tolled to Rest",
       "nameRu": "Почивший под звон",
-      "location": "Vermund",
+      "location": "Королевство Вермунд",
       "subLocation": null,
       "order": 121,
       "availableAfter": "main-004",
@@ -2043,7 +2043,7 @@
       "type": "side",
       "name": "Trouble on the Cape",
       "nameRu": "Неприятности на мысе",
-      "location": "Vermund",
+      "location": "Королевство Вермунд",
       "subLocation": null,
       "order": 122,
       "availableAfter": "main-004",
@@ -2091,7 +2091,7 @@
       "type": "side",
       "name": "Scaly Invaders",
       "nameRu": "Чешуйчатые захватчики",
-      "location": "Vermund",
+      "location": "Королевство Вермунд",
       "subLocation": null,
       "order": 123,
       "availableAfter": "main-004",
@@ -2139,7 +2139,7 @@
       "type": "side",
       "name": "The Arisen's Shadow",
       "nameRu": "Тень Воскресшего",
-      "location": "Vermund",
+      "location": "Королевство Вермунд",
       "subLocation": null,
       "order": 124,
       "availableAfter": "main-004",
@@ -2187,7 +2187,7 @@
       "type": "side",
       "name": "Every Rose Has Its Thorn",
       "nameRu": "У каждой розы есть шипы",
-      "location": "Vermund",
+      "location": "Королевство Вермунд",
       "subLocation": null,
       "order": 125,
       "availableAfter": "main-004",
@@ -2235,7 +2235,7 @@
       "type": "side",
       "name": "Readvent of Calamity",
       "nameRu": "Возвращение бедствия",
-      "location": "Vermund",
+      "location": "Королевство Вермунд",
       "subLocation": null,
       "order": 126,
       "availableAfter": "main-004",
@@ -2283,7 +2283,7 @@
       "type": "side",
       "name": "Home Is Where the Hearth Is",
       "nameRu": "Дом там где очаг",
-      "location": "Vermund",
+      "location": "Королевство Вермунд",
       "subLocation": null,
       "order": 127,
       "availableAfter": "main-004",
@@ -2331,7 +2331,7 @@
       "type": "side",
       "name": "A Magisterial Amenity",
       "nameRu": "Магистерская любезность",
-      "location": "Vermund",
+      "location": "Королевство Вермунд",
       "subLocation": null,
       "order": 128,
       "availableAfter": "main-004",
@@ -2379,7 +2379,7 @@
       "type": "side",
       "name": "Spellbound",
       "nameRu": "Околдованный",
-      "location": "Vermund",
+      "location": "Королевство Вермунд",
       "subLocation": null,
       "order": 130,
       "availableAfter": "main-013",
@@ -2427,7 +2427,7 @@
       "type": "side",
       "name": "A Veil of Gossamer Clouds",
       "nameRu": "Вуаль из прозрачных облаков",
-      "location": "Vermund",
+      "location": "Королевство Вермунд",
       "subLocation": null,
       "order": 131,
       "availableAfter": "main-013",
@@ -2475,7 +2475,7 @@
       "type": "side",
       "name": "Dulled Steel, Cold Forge",
       "nameRu": "Тупая сталь, холодная кузница",
-      "location": "Vermund",
+      "location": "Королевство Вермунд",
       "subLocation": null,
       "order": 132,
       "availableAfter": "main-013",
@@ -2523,7 +2523,7 @@
       "type": "side",
       "name": "A Case of Sculptor's Block",
       "nameRu": "Случай творческого кризиса скульптора",
-      "location": "Vermund",
+      "location": "Королевство Вермунд",
       "subLocation": null,
       "order": 133,
       "availableAfter": "main-013",
@@ -2571,8 +2571,8 @@
       "type": "side",
       "name": "Crossing in Shadow",
       "nameRu": "Переправа в тени",
-      "location": "Vermund",
-      "subLocation": "Vernworth",
+      "location": "Королевство Вермунд",
+      "subLocation": "Вернворт",
       "order": 136,
       "availableAfter": "side-052",
       "rewards": {
@@ -2620,7 +2620,7 @@
       "type": "side",
       "name": "Tensions on the Highroad",
       "nameRu": "Напряжение на главном тракте",
-      "location": "Vermund",
+      "location": "Королевство Вермунд",
       "subLocation": null,
       "order": 137,
       "availableAfter": "side-044",
@@ -2668,7 +2668,7 @@
       "type": "side",
       "name": "The Phantom Oxcart",
       "nameRu": "Призрачная повозка",
-      "location": "Vermund",
+      "location": "Королевство Вермунд",
       "subLocation": null,
       "order": 138,
       "availableAfter": "main-013",
@@ -2716,7 +2716,7 @@
       "type": "side",
       "name": "Prey for the Pack",
       "nameRu": "Добыча для стаи",
-      "location": "Checkpoint",
+      "location": "Приграничный город",
       "subLocation": null,
       "order": 140,
       "availableAfter": "main-013",
@@ -2764,7 +2764,7 @@
       "type": "side",
       "name": "Mercy among Thieves",
       "nameRu": "Милосердие среди воров",
-      "location": "Checkpoint",
+      "location": "Приграничный город",
       "subLocation": null,
       "order": 141,
       "availableAfter": "main-013",
@@ -2812,7 +2812,7 @@
       "type": "side",
       "name": "Off the Pilfered Path",
       "nameRu": "Вне разграбленной тропы",
-      "location": "Battahl",
+      "location": "Королевство Батталь",
       "subLocation": null,
       "order": 142,
       "availableAfter": "side-040",
@@ -2860,7 +2860,7 @@
       "type": "side",
       "name": "A Game of Wits",
       "nameRu": "Игра умов",
-      "location": "Checkpoint",
+      "location": "Приграничный город",
       "subLocation": null,
       "order": 143,
       "availableAfter": "main-013",
@@ -2908,7 +2908,7 @@
       "type": "side",
       "name": "The Sorcerer's Appraisal",
       "nameRu": "Оценка чародея",
-      "location": "Checkpoint",
+      "location": "Приграничный город",
       "subLocation": null,
       "order": 144,
       "availableAfter": "main-013",
@@ -2956,7 +2956,7 @@
       "type": "side",
       "name": "Welcome to Battahl",
       "nameRu": "Добро пожаловать в Батталь",
-      "location": "Battahl",
+      "location": "Королевство Батталь",
       "subLocation": null,
       "order": 145,
       "availableAfter": "main-013",
@@ -3004,7 +3004,7 @@
       "type": "side",
       "name": "Steeled Resolve, Blazing Forge",
       "nameRu": "Стальная решимость, пылающая кузница",
-      "location": "Battahl",
+      "location": "Королевство Батталь",
       "subLocation": null,
       "order": 146,
       "availableAfter": "side-030",
@@ -3052,7 +3052,7 @@
       "type": "side",
       "name": "Short-Sighted Ambition",
       "nameRu": "Недальновидные амбиции",
-      "location": "Battahl",
+      "location": "Королевство Батталь",
       "subLocation": null,
       "order": 147,
       "availableAfter": "main-013",
@@ -3100,7 +3100,7 @@
       "type": "side",
       "name": "A Poisonous Proposal",
       "nameRu": "Ядовитое предложение",
-      "location": "Battahl",
+      "location": "Королевство Батталь",
       "subLocation": null,
       "order": 148,
       "availableAfter": "main-013",
@@ -3148,7 +3148,7 @@
       "type": "side",
       "name": "Shadowed Prayers",
       "nameRu": "Молитвы в тени",
-      "location": "Volcanic Island",
+      "location": "Вулканический остров",
       "subLocation": null,
       "order": 150,
       "availableAfter": "main-013",
@@ -3196,7 +3196,7 @@
       "type": "side",
       "name": "Twixt a Rock and a Hard Place",
       "nameRu": "Меж молотом и наковальней",
-      "location": "Battahl",
+      "location": "Королевство Батталь",
       "subLocation": null,
       "order": 151,
       "availableAfter": "main-013",
@@ -3244,7 +3244,7 @@
       "type": "side",
       "name": "Put a Spring in Thy Step",
       "nameRu": "Добавь пружинки в походку",
-      "location": "Volcanic Island",
+      "location": "Вулканический остров",
       "subLocation": null,
       "order": 152,
       "availableAfter": "main-013",
@@ -3292,7 +3292,7 @@
       "type": "side",
       "name": "The Sotted Sage",
       "nameRu": "Пьяный мудрец",
-      "location": "Volcanic Island",
+      "location": "Вулканический остров",
       "subLocation": null,
       "order": 153,
       "availableAfter": "main-013",
@@ -3340,7 +3340,7 @@
       "type": "side",
       "name": "A Candle in the Storm",
       "nameRu": "Свеча в буре",
-      "location": "Volcanic Island",
+      "location": "Вулканический остров",
       "subLocation": null,
       "order": 154,
       "availableAfter": "side-048",
@@ -3388,7 +3388,7 @@
       "type": "side",
       "name": "The Ailing Arborheart",
       "nameRu": "Больное древесное сердце",
-      "location": "Sacred Arbor",
+      "location": "Деревня Священного Дерева",
       "subLocation": null,
       "order": 155,
       "availableAfter": "side-014",
@@ -3436,7 +3436,7 @@
       "type": "side",
       "name": "Out of the Forest, Into the Forge",
       "nameRu": "Из леса в кузницу",
-      "location": "Battahl",
+      "location": "Королевство Батталь",
       "subLocation": null,
       "order": 156,
       "availableAfter": "side-053",
@@ -3484,7 +3484,7 @@
       "type": "side",
       "name": "Clash and Conclusion",
       "nameRu": "Столкновение и развязка",
-      "location": "Volcanic Island",
+      "location": "Вулканический остров",
       "subLocation": null,
       "order": 160,
       "availableAfter": "side-037",
@@ -3533,8 +3533,8 @@
       "type": "side",
       "name": "Civil Unrest",
       "nameRu": "Гражданские волнения",
-      "location": "Unmoored World",
-      "subLocation": "Bakbattahl",
+      "location": "Изнанка мира",
+      "subLocation": "Бакбатталь",
       "order": 200,
       "availableAfter": "main-021",
       "rewards": {
@@ -3581,7 +3581,7 @@
       "type": "side",
       "name": "Shepherd of the Pawns",
       "nameRu": "Пастырь пешек",
-      "location": "Unmoored World",
+      "location": "Изнанка мира",
       "subLocation": null,
       "order": 201,
       "availableAfter": "main-021",
@@ -3621,8 +3621,9 @@
           "language": "en"
         },
         {
-          "title": "Fextralife Wiki",
-          "url": "https://dragonsdogma2.wiki.fextralife.com/Saint+of+the+Slums"
+          "source": "Fextralife Wiki",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Saint+of+the+Slums",
+          "language": "en"
         }
       ],
       "npc": null,
@@ -3633,7 +3634,7 @@
       "type": "side",
       "name": "The Importance of Aiding Ernesto",
       "nameRu": "Важность помощи Эрнесто",
-      "location": "Unmoored World",
+      "location": "Изнанка мира",
       "subLocation": null,
       "order": 202,
       "availableAfter": "main-021",
@@ -3673,8 +3674,9 @@
           "language": "en"
         },
         {
-          "title": "Fextralife Wiki",
-          "url": "https://dragonsdogma2.wiki.fextralife.com/Masked+Correspondence"
+          "source": "Fextralife Wiki",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Masked+Correspondence",
+          "language": "en"
         }
       ],
       "npc": null,
@@ -3685,7 +3687,7 @@
       "type": "side",
       "name": "The Regentkin's Resolve",
       "nameRu": "Решимость родственника регента",
-      "location": "Unmoored World",
+      "location": "Изнанка мира",
       "subLocation": null,
       "order": 203,
       "availableAfter": "main-021",
@@ -3725,8 +3727,9 @@
           "language": "en"
         },
         {
-          "title": "Fextralife Wiki",
-          "url": "https://dragonsdogma2.wiki.fextralife.com/A+Noble+Exchange"
+          "source": "Fextralife Wiki",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/A+Noble+Exchange",
+          "language": "en"
         }
       ],
       "npc": null,
@@ -3737,8 +3740,8 @@
       "type": "side",
       "name": "Wandering Roots",
       "nameRu": "Блуждающие корни",
-      "location": "Unmoored World",
-      "subLocation": "Sacred Arbor",
+      "location": "Изнанка мира",
+      "subLocation": "Деревня Священного Дерева",
       "order": 204,
       "availableAfter": "side-054",
       "rewards": {
@@ -3786,8 +3789,8 @@
       "type": "side",
       "name": "Saint of the Slums",
       "nameRu": "Святой из трущоб",
-      "location": "Vermund",
-      "subLocation": "Vernworth",
+      "location": "Королевство Вермунд",
+      "subLocation": "Вернворт",
       "order": 125,
       "rewards": {
         "gold": "Unknown",
@@ -3795,7 +3798,11 @@
       },
       "description": "Quest in Vernworth.",
       "howToStart": "Unknown",
-      "requirements": {},
+      "requirements": {
+        "quests": [],
+        "level": null,
+        "items": []
+      },
       "unlocks": [],
       "flags": {
         "isRequired": false,
@@ -3806,8 +3813,9 @@
       "tags": [],
       "links": [
         {
-          "title": "Fextralife Wiki",
-          "url": "https://dragonsdogma2.wiki.fextralife.com/Saint+of+the+Slums"
+          "source": "Fextralife Wiki",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Saint+of+the+Slums",
+          "language": "en"
         }
       ]
     },
@@ -3816,8 +3824,8 @@
       "type": "side",
       "name": "Masked Correspondence",
       "nameRu": "Переписка в масках",
-      "location": "Vermund",
-      "subLocation": "Vernworth",
+      "location": "Королевство Вермунд",
+      "subLocation": "Вернворт",
       "order": 126,
       "rewards": {
         "gold": "Unknown",
@@ -3825,7 +3833,11 @@
       },
       "description": "Quest in Vernworth.",
       "howToStart": "Unknown",
-      "requirements": {},
+      "requirements": {
+        "quests": [],
+        "level": null,
+        "items": []
+      },
       "unlocks": [],
       "flags": {
         "isRequired": false,
@@ -3836,8 +3848,9 @@
       "tags": [],
       "links": [
         {
-          "title": "Fextralife Wiki",
-          "url": "https://dragonsdogma2.wiki.fextralife.com/Masked+Correspondence"
+          "source": "Fextralife Wiki",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/Masked+Correspondence",
+          "language": "en"
         }
       ]
     },
@@ -3846,8 +3859,8 @@
       "type": "side",
       "name": "A Noble Exchange",
       "nameRu": "Благородный обмен",
-      "location": "Vermund",
-      "subLocation": "Vernworth",
+      "location": "Королевство Вермунд",
+      "subLocation": "Вернворт",
       "order": 127,
       "rewards": {
         "gold": "Unknown",
@@ -3855,7 +3868,11 @@
       },
       "description": "Quest in Vernworth.",
       "howToStart": "Unknown",
-      "requirements": {},
+      "requirements": {
+        "quests": [],
+        "level": null,
+        "items": []
+      },
       "unlocks": [],
       "flags": {
         "isRequired": false,
@@ -3866,8 +3883,9 @@
       "tags": [],
       "links": [
         {
-          "title": "Fextralife Wiki",
-          "url": "https://dragonsdogma2.wiki.fextralife.com/A+Noble+Exchange"
+          "source": "Fextralife Wiki",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/A+Noble+Exchange",
+          "language": "en"
         }
       ]
     },
@@ -3876,8 +3894,8 @@
       "type": "side",
       "name": "The Heel of History",
       "nameRu": "Пята истории",
-      "location": "Vermund",
-      "subLocation": "Vernworth",
+      "location": "Королевство Вермунд",
+      "subLocation": "Вернворт",
       "order": 108,
       "rewards": {
         "gold": 6000,
@@ -3886,7 +3904,11 @@
       },
       "description": "Побочный квест в Вернворте",
       "howToStart": "В Вернворте",
-      "requirements": {},
+      "requirements": {
+        "quests": [],
+        "level": null,
+        "items": []
+      },
       "unlocks": [],
       "flags": {
         "isRequired": false,
@@ -3897,8 +3919,9 @@
       "tags": [],
       "links": [
         {
-          "title": "Fextralife Wiki",
-          "url": "https://dragonsdogma2.wiki.fextralife.com/The+Heel+of+History"
+          "source": "Fextralife Wiki",
+          "url": "https://dragonsdogma2.wiki.fextralife.com/The+Heel+of+History",
+          "language": "en"
         }
       ],
       "npc": null,

@@ -6,11 +6,12 @@
   flex: 1;
   background-color: var(--dd2-bg-dark);
   background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23D6A62F' fill-opacity='0.02'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  box-shadow: 
+    inset 2px 0 4px rgba(0, 0, 0, 0.3);
 }
 
 /* Пустое состояние */
@@ -64,6 +65,37 @@
 /* Заголовок квеста */
 .quest-details-header {
   margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Кнопка закрытия */
+.quest-details-close {
+  width: 28px;
+  height: 28px;
+  background: var(--dd2-bg-dark);
+  border: 2px solid #7b4749;
+  color: #7b4749;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.quest-details-close:hover {
+  background: #7b4749;
+  border-color: #7b4749;
+  color: white;
+  transform: scale(1.05);
+}
+
+.quest-details-close:active {
+  transform: scale(0.95);
 }
 
 /* Иконка + название в одну строку */
@@ -90,7 +122,7 @@
   color: var(--dd2-gold);
   margin: 0;
   line-height: 1.2;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: none;
 }
 
 .quest-details-name-ru {
@@ -108,7 +140,7 @@
   display: flex;
   gap: var(--spacing-xs);
   flex-wrap: wrap;
-  margin-bottom: 8px;
+  margin-top: 8px;
   justify-content: flex-end;
 }
 
@@ -152,6 +184,25 @@
   cursor: not-allowed;
 }
 
+/* Зеленая кнопка "Complete" в деталях */
+.quest-details-toggle {
+  background: var(--dd2-bg-dark) !important;
+  border-color: #4a7c59 !important;
+  color: #4a7c59 !important;
+}
+
+.quest-details-toggle:hover:not(:disabled) {
+  background: #4a7c59 !important;
+  border-color: #4a7c59 !important;
+  color: white !important;
+  transform: translateY(-2px);
+}
+
+.quest-details-toggle:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
 /* Скрываем dd2-divider для компактности */
 .quest-details .dd2-divider {
   display: none;
@@ -171,13 +222,25 @@
   opacity: 0.6;
 }
 
-/* Секции - готический стиль */
+/* Секции - готический стиль с глубиной */
 .quest-details-section {
   margin-bottom: 8px;
   padding: var(--spacing-md);
-  background: var(--dd2-bg-medium);
+  background-color: var(--dd2-bg-medium);
+  background-image: 
+    /* Градиент для объёма */
+    radial-gradient(ellipse at top left, rgba(214, 166, 47, 0.03) 0%, transparent 50%),
+    linear-gradient(135deg, rgba(74, 64, 56, 0.2) 0%, rgba(26, 20, 16, 0.4) 100%),
+    /* Шумовая текстура */
+    url("data:image/svg+xml,%3Csvg width='200' height='200' viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' /%3E%3CfeColorMatrix values='0 0 0 0 0, 0 0 0 0 0, 0 0 0 0 0, 0 0 0 0.03 0'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23noise)'/%3E%3C/svg%3E"),
+    /* Геометрический паттерн */
+    url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 20h20v20H0V20zm20-20h20v20H20V0z' fill='%23D6A62F' fill-opacity='0.01'/%3E%3C/svg%3E");
   border: 2px solid var(--dd2-border);
   border-radius: 0;
+  box-shadow: 
+    inset 0 1px 0 rgba(214, 166, 47, 0.08),
+    inset 0 -2px 4px rgba(0, 0, 0, 0.4),
+    0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .quest-details-section-title {
@@ -342,18 +405,15 @@
 }
 
 .req-list li {
-  font-size: var(--text-xs);
+  font-size: var(--text-sm);
   color: var(--dd2-text-primary);
   padding: 2px 0;
-  position: relative;
 }
 
-.req-list li::before {
-  content: '▸';
-  position: absolute;
-  left: calc(-1 * var(--spacing-sm));
-  color: var(--dd2-gold);
-  font-size: 10px;
+.req-list-item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
 }
 
 /* Награды и Открывает - в одну строку */

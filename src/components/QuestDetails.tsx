@@ -14,6 +14,7 @@ interface QuestDetailsProps {
   isFailed: boolean;
   onToggle: (questId: string) => void;
   onMarkFailed: (questId: string) => void;
+  onSelectQuest: (questId: string | null) => void;
 }
 
 export const QuestDetails: React.FC<QuestDetailsProps> = ({
@@ -22,7 +23,8 @@ export const QuestDetails: React.FC<QuestDetailsProps> = ({
   isCompleted,
   isFailed,
   onToggle,
-  onMarkFailed
+  onMarkFailed,
+  onSelectQuest,
 }) => {
   if (!quest) {
     return (
@@ -62,39 +64,53 @@ export const QuestDetails: React.FC<QuestDetailsProps> = ({
               <QuestIcon type={quest.type} size="large" className="quest-title-icon" />
             )}
             <div className="quest-title-text">
-              <h1 className="quest-details-name">{quest.name}</h1>
-              <h2 className="quest-details-name-ru">{quest.nameRu}</h2>
+              <h1 className="quest-details-name">{quest.nameRu}</h1>
+              <h2 className="quest-details-name-ru">{quest.name}</h2>
             </div>
           </div>
 
-          {/* Badges с особенностями */}
-          <div className="quest-details-badges-row">
-            {quest.flags.isRequired && (
-              <span className="dd2-badge dd2-badge-blue">
-                <QuestIcon type="required" size="small" /> Обязательный
-              </span>
-            )}
-            {quest.flags.isRomance && (
-              <span className="dd2-badge dd2-badge-pink">
-                <QuestIcon type="romance" size="small" /> Романтический
-              </span>
-            )}
-            {quest.flags.isMissable && (
-              <span className="dd2-badge dd2-badge-orange">
-                <QuestIcon type="missable" size="small" /> Пропускаемый
-              </span>
-            )}
-            {quest.flags.isCritical && (
-              <span className="dd2-badge dd2-badge-red">
-                <QuestIcon type="critical" size="small" /> Критичный
-              </span>
-            )}
-            {isCompleted && (
-              <span className="dd2-badge dd2-badge-green">✓ Выполнен</span>
-            )}
-            {isFailed && (
-              <span className="dd2-badge dd2-badge-red">✗ Провален</span>
-            )}
+          <div style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'flex-end',
+          }}>
+            <button 
+              className="quest-details-close"
+              onClick={() => onSelectQuest(null)}
+              title="Закрыть детали квеста"
+            >
+              ✕
+            </button>
+
+            {/* Badges с особенностями */}
+            <div className="quest-details-badges-row">
+              {quest.flags.isRequired && (
+                <span className="dd2-badge dd2-badge-blue">
+                  <QuestIcon type="required" size="small" /> Обязательный
+                </span>
+              )}
+              {quest.flags.isRomance && (
+                <span className="dd2-badge dd2-badge-pink">
+                  <QuestIcon type="romance" size="small" /> Романтический
+                </span>
+              )}
+              {quest.flags.isMissable && (
+                <span className="dd2-badge dd2-badge-orange">
+                  <QuestIcon type="missable" size="small" /> Пропускаемый
+                </span>
+              )}
+              {quest.flags.isCritical && (
+                <span className="dd2-badge dd2-badge-red">
+                  <QuestIcon type="critical" size="small" /> Критичный
+                </span>
+              )}
+              {isCompleted && (
+                <span className="dd2-badge dd2-badge-green">✓ Выполнен</span>
+              )}
+              {isFailed && (
+                <span className="dd2-badge dd2-badge-red">✗ Провален</span>
+              )}
+            </div>
           </div>
         </div>
 
@@ -106,10 +122,10 @@ export const QuestDetails: React.FC<QuestDetailsProps> = ({
           
           {/* Локация */}
           <div className="quest-details-location">
-            {quest.location === 'Vermund' && <QuestIcon type="vermund" size="small" />}
-            {quest.location === 'Battahl' && <QuestIcon type="battahl" size="small" />}
-            {quest.location === 'Volcanic Island' && <QuestIcon type="volcanic" size="small" />}
-            {quest.location === 'Unmoored World' && <QuestIcon type="unmoored" size="small" />}
+            {quest.location === 'Королевство Вермунд' && <QuestIcon type="vermund" size="small" />}
+            {quest.location === 'Королевство Батталь' && <QuestIcon type="battahl" size="small" />}
+            {quest.location === 'Вулканический остров' && <QuestIcon type="volcanic" size="small" />}
+            {quest.location === 'Изнанка мира' && <QuestIcon type="unmoored" size="small" />}
             <span className="location-primary">{quest.location}</span>
             {quest.subLocation && (
               <>
@@ -143,21 +159,28 @@ export const QuestDetails: React.FC<QuestDetailsProps> = ({
         </div>
 
         {/* Требования */}
-        {(quest.requirements.quests.length > 0 || quest.requirements.level || quest.requirements.items.length > 0) && (
+        {((quest.requirements?.quests?.length > 0) || quest.requirements?.level || (quest.requirements?.items?.length > 0)) && (
           <div className="quest-details-section">
             <h3 className="quest-details-section-title">
               <QuestIcon type="required" size="small" /> Требования
             </h3>
             
-            {quest.requirements.quests.length > 0 && (
+            {quest.requirements?.quests?.length > 0 && (
               <div className="quest-details-requirements">
                 <span className="req-label">Необходимые квесты:</span>
                 <ul className="req-list">
-                  {quest.requirements.quests.map(reqId => {
+                  {quest.requirements?.quests?.map(reqId => {
                     const reqQuest = getQuestById(reqId);
                     return (
-                      <li key={reqId}>
-                        {reqQuest ? `${reqQuest.name} (${reqQuest.nameRu})` : reqId}
+                      <li key={reqId} className="req-list-item">
+                        {reqQuest ? (
+                          <>
+                            <QuestIcon type={reqQuest.type} size="small" />
+                            <span>{reqQuest.name} ({reqQuest.nameRu})</span>
+                          </>
+                        ) : (
+                          <span>{reqId}</span>
+                        )}
                       </li>
                     );
                   })}
@@ -165,18 +188,18 @@ export const QuestDetails: React.FC<QuestDetailsProps> = ({
               </div>
             )}
 
-            {quest.requirements.level && (
+            {quest.requirements?.level && (
               <div className="quest-details-requirements">
                 <span className="req-label">Рекомендуемый уровень:</span>
                 <span className="req-value">{quest.requirements.level}</span>
               </div>
             )}
 
-            {quest.requirements.items.length > 0 && (
+            {quest.requirements?.items?.length > 0 && (
               <div className="quest-details-requirements">
                 <span className="req-label">Необходимые предметы:</span>
                 <ul className="req-list">
-                  {quest.requirements.items.map((item, idx) => (
+                  {quest.requirements?.items?.map((item, idx) => (
                     <li key={idx}>{item}</li>
                   ))}
                 </ul>
@@ -223,13 +246,13 @@ export const QuestDetails: React.FC<QuestDetailsProps> = ({
           </div>
 
           {/* Открывает квесты */}
-          {quest.unlocks.length > 0 && (
+          {quest.unlocks?.length > 0 && (
             <div className="quest-details-section quest-details-section-half">
               <h3 className="quest-details-section-title">
                 <QuestIcon type="unlock" size="small" /> Открывает квесты
               </h3>
               <ul className="quest-unlocks-list">
-                {quest.unlocks.map(unlockId => {
+                {quest.unlocks?.map(unlockId => {
                   const unlockQuest = getQuestById(unlockId);
                   return (
                     <li key={unlockId} className="unlock-list-item">
@@ -251,7 +274,7 @@ export const QuestDetails: React.FC<QuestDetailsProps> = ({
 
 
         {/* Ссылки на гайды */}
-        {quest.links.length > 0 && (
+        {quest.links?.length > 0 && (
           <div className="quest-details-section">
             <h3 className="quest-details-section-title">
               <QuestIcon type="link" size="small" /> Гайды и прохождения
@@ -265,8 +288,8 @@ export const QuestDetails: React.FC<QuestDetailsProps> = ({
                   rel="noopener noreferrer"
                   className="quest-link"
                 >
-                  <span className="link-source">{link.source}</span>
-                  <span className="link-lang">({link.language.toUpperCase()})</span>
+                  <span className="link-source">{link.source || 'Ссылка'}</span>
+                  <span className="link-lang">({link.language?.toUpperCase() || 'RU'})</span>
                   <span className="link-icon">↗</span>
                 </a>
               ))}

@@ -35,12 +35,12 @@ export interface QuestNPC {
 export type QuestType = 'main' | 'side';
 
 export type QuestLocation = 
-  | 'Vermund'
-  | 'Battahl'
-  | 'Volcanic Island'
-  | 'Unmoored World'
-  | 'Checkpoint'
-  | 'Sacred Arbor';
+  | 'Королевство Вермунд'
+  | 'Королевство Батталь'
+  | 'Вулканический остров'
+  | 'Изнанка мира'
+  | 'Приграничный город'
+  | 'Деревня Священного Дерева';
 
 export interface Quest {
   id: string;
@@ -61,6 +61,7 @@ export interface Quest {
   links: QuestLink[];
   npc: QuestNPC | null;
   notes: string | null;
+  isTimeSensitive?: boolean;
 }
 
 export interface QuestsData {

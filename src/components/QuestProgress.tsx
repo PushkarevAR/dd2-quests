@@ -53,7 +53,7 @@ export const QuestProgress: React.FC<QuestProgressProps> = ({ progress }) => {
           {/* Vermund */}
           <div className="progress-stat-item">
             <span className="progress-label">
-              <QuestIcon type="vermund" size="small" /> Vermund:
+              <QuestIcon type="vermund" size="small" /> Королевство Вермунд:
             </span>
             <span className="progress-value">
               {progress.vermund.completed}/{progress.vermund.total}
@@ -65,7 +65,7 @@ export const QuestProgress: React.FC<QuestProgressProps> = ({ progress }) => {
           {/* Battahl */}
           <div className="progress-stat-item">
             <span className="progress-label">
-              <QuestIcon type="battahl" size="small" /> Battahl:
+              <QuestIcon type="battahl" size="small" /> Королевство Батталь:
             </span>
             <span className="progress-value">
               {progress.battahl.completed}/{progress.battahl.total}
@@ -77,7 +77,7 @@ export const QuestProgress: React.FC<QuestProgressProps> = ({ progress }) => {
           {/* Volcanic Island */}
           <div className="progress-stat-item">
             <span className="progress-label">
-              <QuestIcon type="volcanic" size="small" /> Volcanic:
+              <QuestIcon type="volcanic" size="small" /> Вулканический остров:
             </span>
             <span className="progress-value">
               {progress.volcanic.completed}/{progress.volcanic.total}
@@ -89,7 +89,7 @@ export const QuestProgress: React.FC<QuestProgressProps> = ({ progress }) => {
           {/* Unmoored */}
           <div className="progress-stat-item">
             <span className="progress-label">
-              <QuestIcon type="unmoored" size="small" /> Unmoored:
+              <QuestIcon type="unmoored" size="small" /> Изнанка мира:
             </span>
             <span className="progress-value">
               {progress.unmoored.completed}/{progress.unmoored.total}

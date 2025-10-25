@@ -98,6 +98,7 @@ const App = () => {
           isFailed={selectedQuestId ? isQuestFailed(selectedQuestId) : false}
           onToggle={toggleQuest}
           onMarkFailed={markQuestFailed}
+          onSelectQuest={setSelectedQuestId}
         />
       </div>
     </div>

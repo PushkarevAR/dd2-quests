@@ -67,15 +67,15 @@ export const QuestListItem: React.FC<QuestListItemProps> = ({
               <QuestIcon type={quest.type} size="medium" className="quest-item-icon" />
             )}
             <div className="quest-item-titles">
-              <h3 className="quest-item-name">{quest.name}</h3>
-              <p className="quest-item-name-ru">{quest.nameRu}</p>
+              <h3 className="quest-item-name">{quest.nameRu}</h3>
+              <p className="quest-item-name-ru">{quest.name}</p>
             </div>
           </div>
           
           {/* Кнопки контроля */}
           <div className="quest-item-controls">
             <button
-              className={`quest-control-btn ${isCompleted ? 'quest-control-active' : ''}`}
+              className={`quest-control-btn quest-control-complete ${isCompleted ? 'quest-control-active' : ''}`}
               onClick={handleCompleteClick}
               disabled={isFailed}
               title={isCompleted ? 'Отменить выполнение' : 'Отметить выполненным'}
@@ -95,10 +95,10 @@ export const QuestListItem: React.FC<QuestListItemProps> = ({
         {/* Локация */}
         <div className="quest-item-location-info">
           <span className="quest-item-location">
-            {quest.location === 'Vermund' && <QuestIcon type="vermund" size="small" />}
-            {quest.location === 'Battahl' && <QuestIcon type="battahl" size="small" />}
-            {quest.location === 'Volcanic Island' && <QuestIcon type="volcanic" size="small" />}
-            {quest.location === 'Unmoored World' && <QuestIcon type="unmoored" size="small" />}
+            {quest.location === 'Королевство Вермунд' && <QuestIcon type="vermund" size="small" />}
+            {quest.location === 'Королевство Батталь' && <QuestIcon type="battahl" size="small" />}
+            {quest.location === 'Вулканический остров' && <QuestIcon type="volcanic" size="small" />}
+            {quest.location === 'Изнанка мира' && <QuestIcon type="unmoored" size="small" />}
             {quest.location}
           </span>
           {quest.subLocation && (
