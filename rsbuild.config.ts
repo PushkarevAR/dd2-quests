@@ -6,5 +6,11 @@ export default defineConfig({
   output: {
     publicPath: './',
     assetPrefix: './',
+    copy: [
+      {
+        from: 'public',
+        to: '.',
+      },
+    ],
   },
 });
