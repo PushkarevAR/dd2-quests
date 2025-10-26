@@ -26,7 +26,7 @@ export const QuestList: React.FC<QuestListProps> = ({
   onSelectQuest,
   selectedQuestId
 }) => {
-  const [filter, setFilter] = useState<'all' | 'main' | 'side'>('all');
+  const [filter, setFilter] = useState<'all' | 'main' | 'side' | 'available'>('all');
   const [locationFilter, setLocationFilter] = useState<string>('all');
   const [tagFilter, setTagFilter] = useState<string>('all');
   const [showCompleted, setShowCompleted] = useState(true);
@@ -114,8 +114,28 @@ export const QuestList: React.FC<QuestListProps> = ({
     }
 
     // Фильтр по типу
-    if (filter !== 'all') {
+    if (filter === 'main' || filter === 'side') {
       result = result.filter(q => q.type === filter);
+    } else if (filter === 'available') {
+      // Фильтр "доступные" - показываем только те квесты, которые доступны с учетом выполненных
+      result = result.filter(q => {
+        // Проверяем требования из requirements.quests
+        if (q.requirements.quests && q.requirements.quests.length > 0) {
+          const allRequirementsMet = q.requirements.quests.every(reqId => isQuestCompleted(reqId));
+          if (!allRequirementsMet) {
+            return false;
+          }
+        }
+        
+        // Проверяем availableAfter
+        if (q.availableAfter) {
+          if (!isQuestCompleted(q.availableAfter)) {
+            return false;
+          }
+        }
+        
+        return true;
+      });
     }
 
     // Фильтр по локации
@@ -206,7 +226,7 @@ export const QuestList: React.FC<QuestListProps> = ({
                         name="questType"
                         value="all"
                         checked={filter === 'all'}
-                        onChange={(e) => setFilter(e.target.value as 'all' | 'main' | 'side')}
+                        onChange={(e) => setFilter(e.target.value as 'all' | 'main' | 'side' | 'available')}
                       />
                       <span>Все квесты</span>
                     </label>
@@ -216,7 +236,7 @@ export const QuestList: React.FC<QuestListProps> = ({
                         name="questType"
                         value="main"
                         checked={filter === 'main'}
-                        onChange={(e) => setFilter(e.target.value as 'all' | 'main' | 'side')}
+                        onChange={(e) => setFilter(e.target.value as 'all' | 'main' | 'side' | 'available')}
                       />
                       <span>Основные</span>
                     </label>
@@ -226,9 +246,19 @@ export const QuestList: React.FC<QuestListProps> = ({
                         name="questType"
                         value="side"
                         checked={filter === 'side'}
-                        onChange={(e) => setFilter(e.target.value as 'all' | 'main' | 'side')}
+                        onChange={(e) => setFilter(e.target.value as 'all' | 'main' | 'side' | 'available')}
                       />
                       <span>Побочные</span>
+                    </label>
+                    <label className="radio-option">
+                      <input 
+                        type="radio"
+                        name="questType"
+                        value="available"
+                        checked={filter === 'available'}
+                        onChange={(e) => setFilter(e.target.value as 'all' | 'main' | 'side' | 'available')}
+                      />
+                      <span>Доступные</span>
                     </label>
                   </div>
                 </div>
@@ -366,7 +396,7 @@ export const QuestList: React.FC<QuestListProps> = ({
             {searchQuery ? (
               <>Найдено: {searchResults?.directMatches.length || 0} прямых совпадений</>
             ) : (
-              <>Найдено: {filteredQuests.length} {filter !== 'all' ? `(${filter === 'main' ? 'основных' : 'побочных'})` : 'квестов'}</>
+              <>Найдено: {filteredQuests.length} {filter === 'main' ? 'основных' : filter === 'side' ? 'побочных' : filter === 'available' ? 'доступных' : 'квестов'}</>
             )}
           </span>
         </div>

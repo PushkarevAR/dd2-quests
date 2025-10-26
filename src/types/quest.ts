@@ -3,15 +3,15 @@
  */
 
 export interface QuestRewards {
-  gold: number;
-  xp: number;
-  items: string[];
+  gold: number | string;
+  xp: number | string;
+  items?: string[];
 }
 
 export interface QuestRequirements {
   quests: string[];
   level: number | null;
-  items: string[];
+  items?: string[];
 }
 
 export interface QuestFlags {

@@ -216,30 +216,34 @@ export const QuestDetails: React.FC<QuestDetailsProps> = ({
               <QuestIcon type="item" size="small" /> Награды
             </h3>
             <ul className="quest-rewards-list">
-              {quest.rewards.gold > 0 && (
-                <li className="reward-list-item">
-                  <QuestIcon type="gold" size="small" />
-                  <span>{quest.rewards.gold.toLocaleString('ru-RU')} золота</span>
-                </li>
-              )}
-              
-              {quest.rewards.xp > 0 && (
-                <li className="reward-list-item">
-                  <QuestIcon type="xp" size="small" />
-                  <span>{quest.rewards.xp.toLocaleString('ru-RU')} XP</span>
-                </li>
-              )}
+              {(typeof quest.rewards.gold === 'number' && quest.rewards.gold > 0) ||
+               (typeof quest.rewards.xp === 'number' && quest.rewards.xp > 0) ||
+               (quest.rewards.items && quest.rewards.items.length > 0) ? (
+                <>
+                  {typeof quest.rewards.gold === 'number' && quest.rewards.gold > 0 && (
+                    <li className="reward-list-item">
+                      <QuestIcon type="gold" size="small" />
+                      <span>{quest.rewards.gold.toLocaleString('ru-RU')} золота</span>
+                    </li>
+                  )}
+                  
+                  {typeof quest.rewards.xp === 'number' && quest.rewards.xp > 0 && (
+                    <li className="reward-list-item">
+                      <QuestIcon type="xp" size="small" />
+                      <span>{quest.rewards.xp.toLocaleString('ru-RU')} XP</span>
+                    </li>
+                  )}
 
-              {quest.rewards.items.length > 0 && (
-                quest.rewards.items.map((item, idx) => (
-                  <li key={idx} className="reward-list-item">
-                    <QuestIcon type="item" size="small" />
-                    <span>{item}</span>
-                  </li>
-                ))
-              )}
-
-              {quest.rewards.gold === 0 && quest.rewards.xp === 0 && quest.rewards.items.length === 0 && (
+                  {quest.rewards.items && quest.rewards.items.length > 0 && (
+                    quest.rewards.items.map((item, idx) => (
+                      <li key={idx} className="reward-list-item">
+                        <QuestIcon type="item" size="small" />
+                        <span>{item}</span>
+                      </li>
+                    ))
+                  )}
+                </>
+              ) : (
                 <li className="text-muted">Нет наград</li>
               )}
             </ul>
